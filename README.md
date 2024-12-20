@@ -66,3 +66,7 @@ g++ video_compressor_gui.cpp -o video_compressor_gui.exe -std=c++17 -municode -m
 原檔名_年月日_時分秒_compressed.副檔名
 ```
 例如：`movie_20231225_153000_compressed.mp4`
+
+## 使用工具
+
+VSCode,Copilot,
