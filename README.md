@@ -2,7 +2,7 @@
 
 這是一個簡單的影片壓縮工具，使用 FFmpeg 作為核心引擎，提供圖形化介面讓使用者方便操作。
 
-![image](https://github.com/yuuhouse/Random_food_generator/blob/main/Screenshot%202024-05-29%20220427.png)
+![image](https://github.com/yuuhouse/VideoCopresserV_02-potter-/blob/main/Screenshot.png)
 
 ## 功能特點
 
