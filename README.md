@@ -69,4 +69,5 @@ g++ video_compressor_gui.cpp -o video_compressor_gui.exe -std=c++17 -municode -m
 
 ## 使用工具
 
-VSCode,Copilot,
+- VSCode
+- Copilot
