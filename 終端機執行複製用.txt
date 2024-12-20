@@ -1,0 +1,3 @@
+g++ video_compressor_gui.cpp -o video_compressor_gui.exe -std=c++17 -municode -mwindows -static -static-libgcc -static-libstdc++
+
+python video_compressor_gui.py
