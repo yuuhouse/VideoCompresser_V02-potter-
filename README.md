@@ -38,7 +38,7 @@ run_lazy.bat
 ```
 
 ### 懶人方法(PowerShell)
-右鍵`run_lazy.ps1`>點擊用 PowerShell 執行
+右鍵`run_lazy.ps1`>點擊 用 PowerShell 執行
 
 
 ### Python 版本
