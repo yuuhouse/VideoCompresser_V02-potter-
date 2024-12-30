@@ -31,6 +31,16 @@
 
 ## 執行方式
 
+### 懶人方法(CMD)
+直接點擊運行
+```bash
+run_lazy.bat
+```
+
+### 懶人方法(PowerShell)
+右鍵`run_lazy.ps1`>點擊用 PowerShell 執行
+
+
 ### Python 版本
 ```bash
 python video_compressor_gui.py
