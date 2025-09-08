@@ -82,3 +82,7 @@ g++ video_compressor_gui.cpp -o video_compressor_gui.exe -std=c++17 -municode -m
 
 - VSCode
 - Copilot
+
+## Hackmd相關文章
+
+[Hackmd解說版](https://hackmd.io/@yuuhouse/discordvideocompresssolve) 
