@@ -5,13 +5,11 @@
 
 以下為兩個版本介面截圖：
 
-- `Screenshot.png`：Python 版介面
-- `Screenshot2.png`：C++ 版介面
 
 Python 版會在視窗下方顯示一個實時狀態區，逐行輸出 FFmpeg 的轉換進度、警告與錯誤；C++ 版則直接透過執行視窗顯示輸出資訊。
-
+- `Screenshot.png`：Python 版介面
 ![Python version](https://github.com/yuuhouse/VideoCopresserV_02-potter-/blob/main/Screenshot.png)
-
+- `Screenshot2.png`：C++ 版介面
 ![C++ version](https://github.com/yuuhouse/VideoCopresserV_02-potter-/blob/main/Screenshot2.png)
 
 ## 功能特點
