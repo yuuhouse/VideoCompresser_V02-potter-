@@ -1,6 +1,7 @@
 # 影片壓縮工具
 
 這是一個簡單的影片壓縮工具，使用 FFmpeg 作為核心引擎，提供圖形化介面讓使用者方便操作。
+<br>99.9%AI製造程式碼
 
 ![image](https://github.com/yuuhouse/VideoCopresserV_02-potter-/blob/main/Screenshot.png)
 
@@ -82,3 +83,7 @@ g++ video_compressor_gui.cpp -o video_compressor_gui.exe -std=c++17 -municode -m
 
 - VSCode
 - Copilot
+
+## Hackmd相關文章
+
+[Hackmd解說版](https://hackmd.io/@yuuhouse/discordvideocompresssolve) 
