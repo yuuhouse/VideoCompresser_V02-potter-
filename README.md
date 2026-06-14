@@ -8,6 +8,8 @@
 - `Screenshot.png`：Python 版介面
 - `Screenshot2.png`：C++ 版介面
 
+Python 版會在視窗下方顯示一個實時狀態區，逐行輸出 FFmpeg 的轉換進度、警告與錯誤；C++ 版則直接透過執行視窗顯示輸出資訊。
+
 ![Python version](https://github.com/yuuhouse/VideoCopresserV_02-potter-/blob/main/Screenshot.png)
 
 ![C++ version](https://github.com/yuuhouse/VideoCopresserV_02-potter-/blob/main/Screenshot2.png)
@@ -17,6 +19,7 @@
 - 支援多種影片格式 (MP4, AVI, MKV, MOV)
 - 使用 H.265 編碼器進行高效壓縮
 - 可調整 CRF 值控制壓縮品質
+- Python 版有實時輸出區，逐行顯示 FFmpeg 執行狀態和錯誤資訊
 - 自動記錄壓縮過程和結果
 - 保留原檔案，產生新的壓縮檔案
 
@@ -34,7 +37,8 @@
 
 - Python 3.6 或更新版本
 - FFmpeg（需要預先安裝；若專案目錄含 `ffmpeg.exe`，Python 和 C++ 版程式會優先使用它，否則改用系統 `ffmpeg`）
-- C++ 版本的壓縮參數已與 Python 版本對齊，使用 `libx265` 並加上 `-preset medium`。
+- Python 版具有實時狀態區，並使用背景執行緒讀取 FFmpeg 的輸出
+- C++ 版本的壓縮參數已與 Python 版本對齊，使用 `libx265` 並加上 `-preset medium`
 - tkinter（Python GUI 套件）
 - G++編譯器（如果要編譯 C++ 版本）
 
@@ -64,8 +68,10 @@ g++ video_compressor_gui.cpp -o video_compressor_gui.exe -std=c++17 -municode -m
 
 - 壓縮過程中請勿關閉程式
 - 較大的檔案可能需要較長處理時間
+- Python 版會在畫面下方的實時輸出區逐行顯示 FFmpeg 轉換進度與錯誤資訊
+- C++ 版則直接在執行視窗中顯示轉換狀態
 - 所有壓縮記錄都會保存在 video_compression.log 檔案中
-- 若出現異常狀況，可查看 log 檔案了解詳細資訊
+- 若出現異常狀況，可查看 log 檔案了解詳細錯誤訊息
 
 ## 錯誤排解
 
@@ -76,6 +82,9 @@ g++ video_compressor_gui.cpp -o video_compressor_gui.exe -std=c++17 -municode -m
 2. 壓縮失敗
    - 檢查影片檔案是否完整
    - 確認硬碟空間是否足夠
+   - 確認 CRF 是否在 0-51 範圍內
+   - 確認輸入檔案格式為 MP4 / AVI / MKV / MOV
+   - 確認程式能找到 `ffmpeg`（本地 `ffmpeg.exe` 或系統路徑內的 ffmpeg）
    - 查看 log 檔案了解詳細錯誤訊息
 
 ## 檔案命名規則
