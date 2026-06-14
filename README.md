@@ -3,7 +3,14 @@
 這是一個簡單的影片壓縮工具，使用 FFmpeg 作為核心引擎，提供圖形化介面讓使用者方便操作。
 <br>99.9%AI製造程式碼
 
-![image](https://github.com/yuuhouse/VideoCopresserV_02-potter-/blob/main/Screenshot.png)
+以下為兩個版本介面截圖：
+
+- `Screenshot.png`：Python 版介面
+- `Screenshot2.png`：C++ 版介面
+
+![Python version](https://github.com/yuuhouse/VideoCopresserV_02-potter-/blob/main/Screenshot.png)
+
+![C++ version](https://github.com/yuuhouse/VideoCopresserV_02-potter-/blob/main/Screenshot2.png)
 
 ## 功能特點
 
