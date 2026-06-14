@@ -249,3 +249,545 @@ encoded 1 frames in 0.10s (10.20 fps), 4103.80 kb/s, Avg QP:51.00
 2025-04-09 12:18:17,666 - INFO - Output size: 9.55 MB
 2025-04-09 12:18:17 - INFO - Compression ratio: 71.16%
 2025-04-09 12:18:17,666 - INFO - Compression ratio: 71.16%
+2026-06-14 11:51:23 - WARNING - Bundled ffmpeg.exe not found. Falling back to system 'ffmpeg' command.
+2026-06-14 11:51:23,396 - WARNING - Bundled ffmpeg.exe not found. Falling back to system 'ffmpeg' command.
+2026-06-14 11:51:26 - ERROR - Compression failed: No input file selected.
+2026-06-14 11:51:26,487 - ERROR - Compression failed: No input file selected.
+2026-06-14 11:51:40 - INFO - Input file: D:/Games/Hgame/Hvideo/[Azur Lane] Sex Machine.mp4
+2026-06-14 11:51:40,058 - INFO - Input file: D:/Games/Hgame/Hvideo/[Azur Lane] Sex Machine.mp4
+2026-06-14 11:51:40 - INFO - Input size: 165.01 MB
+2026-06-14 11:51:40,061 - INFO - Input size: 165.01 MB
+2026-06-14 11:51:43 - INFO - Executing command: ffmpeg -i D:/Games/Hgame/Hvideo/[Azur Lane] Sex Machine.mp4 -c:v libx265 -crf 28 -preset medium D:\Games\Hgame\Hvideo\[Azur Lane] Sex Machine_20260614_115140_compressed.mp4
+2026-06-14 11:51:43,804 - INFO - Executing command: ffmpeg -i D:/Games/Hgame/Hvideo/[Azur Lane] Sex Machine.mp4 -c:v libx265 -crf 28 -preset medium D:\Games\Hgame\Hvideo\[Azur Lane] Sex Machine_20260614_115140_compressed.mp4
+2026-06-14 11:51:43 - INFO - [ERR] ffmpeg version N-105570-gfad5c6d743-20220213 Copyright (c) 2000-2022 the FFmpeg developers
+2026-06-14 11:51:43,815 - INFO - [ERR] ffmpeg version N-105570-gfad5c6d743-20220213 Copyright (c) 2000-2022 the FFmpeg developers
+2026-06-14 11:51:43 - INFO - [ERR]   built with gcc 11.2.0 (crosstool-NG 1.24.0.498_5075e1f)
+2026-06-14 11:51:43,815 - INFO - [ERR]   built with gcc 11.2.0 (crosstool-NG 1.24.0.498_5075e1f)
+2026-06-14 11:51:43 - INFO - [ERR]   configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-avisynth --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libass --enable-libbluray --enable-libmp3lame --enable-libopus --enable-librist --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libmfx --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --disable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20220213
+2026-06-14 11:51:43,816 - INFO - [ERR]   configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-avisynth --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libass --enable-libbluray --enable-libmp3lame --enable-libopus --enable-librist --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libmfx --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --disable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20220213
+2026-06-14 11:51:43 - INFO - [ERR]   libavutil      57. 21.100 / 57. 21.100
+2026-06-14 11:51:43,816 - INFO - [ERR]   libavutil      57. 21.100 / 57. 21.100
+2026-06-14 11:51:43 - INFO - [ERR]   libavcodec     59. 20.100 / 59. 20.100
+2026-06-14 11:51:43,816 - INFO - [ERR]   libavcodec     59. 20.100 / 59. 20.100
+2026-06-14 11:51:43 - INFO - [ERR]   libavformat    59. 17.101 / 59. 17.101
+2026-06-14 11:51:43,817 - INFO - [ERR]   libavformat    59. 17.101 / 59. 17.101
+2026-06-14 11:51:43 - INFO - [ERR]   libavdevice    59.  5.100 / 59.  5.100
+2026-06-14 11:51:43,817 - INFO - [ERR]   libavdevice    59.  5.100 / 59.  5.100
+2026-06-14 11:51:43 - INFO - [ERR]   libavfilter     8. 27.100 /  8. 27.100
+2026-06-14 11:51:43,818 - INFO - [ERR]   libavfilter     8. 27.100 /  8. 27.100
+2026-06-14 11:51:43 - INFO - [ERR]   libswscale      6.  5.100 /  6.  5.100
+2026-06-14 11:51:43,818 - INFO - [ERR]   libswscale      6.  5.100 /  6.  5.100
+2026-06-14 11:51:43 - INFO - [ERR]   libswresample   4.  4.100 /  4.  4.100
+2026-06-14 11:51:43,819 - INFO - [ERR]   libswresample   4.  4.100 /  4.  4.100
+2026-06-14 11:51:43 - INFO - [ERR]   libpostproc    56.  4.100 / 56.  4.100
+2026-06-14 11:51:43,819 - INFO - [ERR]   libpostproc    56.  4.100 / 56.  4.100
+2026-06-14 11:51:43 - INFO - [ERR] Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:/Games/Hgame/Hvideo/[Azur Lane] Sex Machine.mp4':
+2026-06-14 11:51:43,825 - INFO - [ERR] Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:/Games/Hgame/Hvideo/[Azur Lane] Sex Machine.mp4':
+2026-06-14 11:51:43 - INFO - [ERR]   Metadata:
+2026-06-14 11:51:43,826 - INFO - [ERR]   Metadata:
+2026-06-14 11:51:43 - INFO - [ERR]     major_brand     : isom
+2026-06-14 11:51:43,826 - INFO - [ERR]     major_brand     : isom
+2026-06-14 11:51:43 - INFO - [ERR]     minor_version   : 512
+2026-06-14 11:51:43,827 - INFO - [ERR]     minor_version   : 512
+2026-06-14 11:51:43 - INFO - [ERR]     compatible_brands: isomiso2avc1mp41
+2026-06-14 11:51:43,828 - INFO - [ERR]     compatible_brands: isomiso2avc1mp41
+2026-06-14 11:51:43 - INFO - [ERR]     encoder         : Lavf58.20.100
+2026-06-14 11:51:43,829 - INFO - [ERR]     encoder         : Lavf58.20.100
+2026-06-14 11:51:43 - INFO - [ERR]   Duration: 00:04:47.10, start: 0.000000, bitrate: 4821 kb/s
+2026-06-14 11:51:43,829 - INFO - [ERR]   Duration: 00:04:47.10, start: 0.000000, bitrate: 4821 kb/s
+2026-06-14 11:51:43 - INFO - [ERR]   Stream #0:0[0x1](eng): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 4495 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+2026-06-14 11:51:43,831 - INFO - [ERR]   Stream #0:0[0x1](eng): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 4495 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+2026-06-14 11:51:43 - INFO - [ERR]     Metadata:
+2026-06-14 11:51:43,832 - INFO - [ERR]     Metadata:
+2026-06-14 11:51:43 - INFO - [ERR]       handler_name    : ?Mainconcept Video Media Handler
+2026-06-14 11:51:43,833 - INFO - [ERR]       handler_name    : ?Mainconcept Video Media Handler
+2026-06-14 11:51:43 - INFO - [ERR]       vendor_id       : [0][0][0][0]
+2026-06-14 11:51:43,834 - INFO - [ERR]       vendor_id       : [0][0][0][0]
+2026-06-14 11:51:43 - INFO - [ERR]   Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 317 kb/s (default)
+2026-06-14 11:51:43,835 - INFO - [ERR]   Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 317 kb/s (default)
+2026-06-14 11:51:43 - INFO - [ERR]     Metadata:
+2026-06-14 11:51:43,836 - INFO - [ERR]     Metadata:
+2026-06-14 11:51:43 - INFO - [ERR]       handler_name    : #Mainconcept MP4 Sound Media Handler
+2026-06-14 11:51:43,838 - INFO - [ERR]       handler_name    : #Mainconcept MP4 Sound Media Handler
+2026-06-14 11:51:43 - INFO - [ERR]       vendor_id       : [0][0][0][0]
+2026-06-14 11:51:43,840 - INFO - [ERR]       vendor_id       : [0][0][0][0]
+2026-06-14 11:51:43 - INFO - [ERR] Stream mapping:
+2026-06-14 11:51:43,842 - INFO - [ERR] Stream mapping:
+2026-06-14 11:51:43 - INFO - [ERR]   Stream #0:0 -> #0:0 (h264 (native) -> hevc (libx265))
+2026-06-14 11:51:43,844 - INFO - [ERR]   Stream #0:0 -> #0:0 (h264 (native) -> hevc (libx265))
+2026-06-14 11:51:43 - INFO - [ERR]   Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+2026-06-14 11:51:43,847 - INFO - [ERR]   Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+2026-06-14 11:51:43 - INFO - [ERR] Press [q] to stop, [?] for help
+2026-06-14 11:51:43,849 - INFO - [ERR] Press [q] to stop, [?] for help
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: HEVC encoder version 3.5+20-17839cc0d
+2026-06-14 11:51:43,852 - INFO - [ERR] x265 [info]: HEVC encoder version 3.5+20-17839cc0d
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: build info [Windows][GCC 11.2.0][64 bit] 8bit+10bit+12bit
+2026-06-14 11:51:43,853 - INFO - [ERR] x265 [info]: build info [Windows][GCC 11.2.0][64 bit] 8bit+10bit+12bit
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+2026-06-14 11:51:43,855 - INFO - [ERR] x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: Main profile, Level-3.1 (Main tier)
+2026-06-14 11:51:43,857 - INFO - [ERR] x265 [info]: Main profile, Level-3.1 (Main tier)
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: Thread pool created using 12 threads
+2026-06-14 11:51:43,860 - INFO - [ERR] x265 [info]: Thread pool created using 12 threads
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: Slices                              : 1
+2026-06-14 11:51:43,862 - INFO - [ERR] x265 [info]: Slices                              : 1
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: frame threads / pool features       : 3 / wpp(12 rows)
+2026-06-14 11:51:43,863 - INFO - [ERR] x265 [info]: frame threads / pool features       : 3 / wpp(12 rows)
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+2026-06-14 11:51:43,866 - INFO - [ERR] x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+2026-06-14 11:51:43,868 - INFO - [ERR] x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 3
+2026-06-14 11:51:43,870 - INFO - [ERR] x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 3
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: Keyframe min / max / scenecut / bias  : 25 / 250 / 40 / 5.00
+2026-06-14 11:51:43,872 - INFO - [ERR] x265 [info]: Keyframe min / max / scenecut / bias  : 25 / 250 / 40 / 5.00
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+2026-06-14 11:51:43,874 - INFO - [ERR] x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+2026-06-14 11:51:43,876 - INFO - [ERR] x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: References / ref-limit  cu / depth  : 3 / off / on
+2026-06-14 11:51:43,878 - INFO - [ERR] x265 [info]: References / ref-limit  cu / depth  : 3 / off / on
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+2026-06-14 11:51:43,880 - INFO - [ERR] x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: Rate Control / qCompress            : CRF-28.0 / 0.60
+2026-06-14 11:51:43,882 - INFO - [ERR] x265 [info]: Rate Control / qCompress            : CRF-28.0 / 0.60
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: tools: rd=3 psy-rd=2.00 early-skip rskip mode=1 signhide tmvp
+2026-06-14 11:51:43,885 - INFO - [ERR] x265 [info]: tools: rd=3 psy-rd=2.00 early-skip rskip mode=1 signhide tmvp
+2026-06-14 11:51:43 - INFO - [ERR] x265 [info]: tools: b-intra strong-intra-smoothing lslices=4 deblock sao
+2026-06-14 11:51:43,887 - INFO - [ERR] x265 [info]: tools: b-intra strong-intra-smoothing lslices=4 deblock sao
+2026-06-14 11:51:43 - INFO - [ERR] Output #0, mp4, to 'D:\Games\Hgame\Hvideo\[Azur Lane] Sex Machine_20260614_115140_compressed.mp4':
+2026-06-14 11:51:43,889 - INFO - [ERR] Output #0, mp4, to 'D:\Games\Hgame\Hvideo\[Azur Lane] Sex Machine_20260614_115140_compressed.mp4':
+2026-06-14 11:51:43 - INFO - [ERR]   Metadata:
+2026-06-14 11:51:43,892 - INFO - [ERR]   Metadata:
+2026-06-14 11:51:43 - INFO - [ERR]     major_brand     : isom
+2026-06-14 11:51:43,894 - INFO - [ERR]     major_brand     : isom
+2026-06-14 11:51:43 - INFO - [ERR]     minor_version   : 512
+2026-06-14 11:51:43,895 - INFO - [ERR]     minor_version   : 512
+2026-06-14 11:51:43 - INFO - [ERR]     compatible_brands: isomiso2avc1mp41
+2026-06-14 11:51:43,898 - INFO - [ERR]     compatible_brands: isomiso2avc1mp41
+2026-06-14 11:51:43 - INFO - [ERR]     encoder         : Lavf59.17.101
+2026-06-14 11:51:43,902 - INFO - [ERR]     encoder         : Lavf59.17.101
+2026-06-14 11:51:43 - INFO - [ERR]   Stream #0:0(eng): Video: hevc (hev1 / 0x31766568), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn (default)
+2026-06-14 11:51:43,904 - INFO - [ERR]   Stream #0:0(eng): Video: hevc (hev1 / 0x31766568), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn (default)
+2026-06-14 11:51:43 - INFO - [ERR]     Metadata:
+2026-06-14 11:51:43,907 - INFO - [ERR]     Metadata:
+2026-06-14 11:51:43 - INFO - [ERR]       handler_name    : ?Mainconcept Video Media Handler
+2026-06-14 11:51:43,909 - INFO - [ERR]       handler_name    : ?Mainconcept Video Media Handler
+2026-06-14 11:51:43 - INFO - [ERR]       vendor_id       : [0][0][0][0]
+2026-06-14 11:51:43,913 - INFO - [ERR]       vendor_id       : [0][0][0][0]
+2026-06-14 11:51:43 - INFO - [ERR]       encoder         : Lavc59.20.100 libx265
+2026-06-14 11:51:43,916 - INFO - [ERR]       encoder         : Lavc59.20.100 libx265
+2026-06-14 11:51:43 - INFO - [ERR]     Side data:
+2026-06-14 11:51:43,918 - INFO - [ERR]     Side data:
+2026-06-14 11:51:43 - INFO - [ERR]       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+2026-06-14 11:51:43,921 - INFO - [ERR]       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+2026-06-14 11:51:43 - INFO - [ERR]   Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+2026-06-14 11:51:43,924 - INFO - [ERR]   Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+2026-06-14 11:51:43 - INFO - [ERR]     Metadata:
+2026-06-14 11:51:43,927 - INFO - [ERR]     Metadata:
+2026-06-14 11:51:43 - INFO - [ERR]       handler_name    : #Mainconcept MP4 Sound Media Handler
+2026-06-14 11:51:43,930 - INFO - [ERR]       handler_name    : #Mainconcept MP4 Sound Media Handler
+2026-06-14 11:51:43 - INFO - [ERR]       vendor_id       : [0][0][0][0]
+2026-06-14 11:51:43,932 - INFO - [ERR]       vendor_id       : [0][0][0][0]
+2026-06-14 11:51:43 - INFO - [ERR]       encoder         : Lavc59.20.100 aac
+2026-06-14 11:51:43,935 - INFO - [ERR]       encoder         : Lavc59.20.100 aac
+2026-06-14 11:51:44 - INFO - [ERR] frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.36 bitrate=   1.0kbits/s speed=18.1x
+2026-06-14 11:51:44,358 - INFO - [ERR] frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.36 bitrate=   1.0kbits/s speed=18.1x
+2026-06-14 11:51:44 - INFO - [ERR] frame=   92 fps=0.0 q=34.7 size=       0kB time=00:00:03.41 bitrate=   0.1kbits/s speed=6.47x
+2026-06-14 11:51:44,859 - INFO - [ERR] frame=   92 fps=0.0 q=34.7 size=       0kB time=00:00:03.41 bitrate=   0.1kbits/s speed=6.47x
+2026-06-14 11:51:45 - INFO - [ERR] frame=  165 fps=161 q=35.8 size=     256kB time=00:00:05.86 bitrate= 357.5kbits/s speed=5.71x
+2026-06-14 11:51:45,370 - INFO - [ERR] frame=  165 fps=161 q=35.8 size=     256kB time=00:00:05.86 bitrate= 357.5kbits/s speed=5.71x
+2026-06-14 11:51:45 - INFO - [ERR] frame=  229 fps=149 q=28.3 size=     512kB time=00:00:07.97 bitrate= 525.7kbits/s speed=5.18x
+2026-06-14 11:51:45,871 - INFO - [ERR] frame=  229 fps=149 q=28.3 size=     512kB time=00:00:07.97 bitrate= 525.7kbits/s speed=5.18x
+2026-06-14 11:51:46 - INFO - [ERR] frame=  294 fps=144 q=32.9 size=     512kB time=00:00:10.13 bitrate= 413.9kbits/s speed=4.96x
+2026-06-14 11:51:46,376 - INFO - [ERR] frame=  294 fps=144 q=32.9 size=     512kB time=00:00:10.13 bitrate= 413.9kbits/s speed=4.96x
+2026-06-14 11:51:46 - INFO - [ERR] frame=  347 fps=136 q=28.6 size=     768kB time=00:00:11.92 bitrate= 527.6kbits/s speed=4.68x
+2026-06-14 11:51:46,886 - INFO - [ERR] frame=  347 fps=136 q=28.6 size=     768kB time=00:00:11.92 bitrate= 527.6kbits/s speed=4.68x
+2026-06-14 11:51:47 - INFO - [ERR] frame=  399 fps=131 q=28.8 size=    1024kB time=00:00:13.65 bitrate= 614.4kbits/s speed=4.47x
+2026-06-14 11:51:47,398 - INFO - [ERR] frame=  399 fps=131 q=28.8 size=    1024kB time=00:00:13.65 bitrate= 614.4kbits/s speed=4.47x
+2026-06-14 11:51:47 - INFO - [ERR] frame=  449 fps=126 q=27.0 size=    1536kB time=00:00:15.31 bitrate= 821.5kbits/s speed=4.29x
+2026-06-14 11:51:47,915 - INFO - [ERR] frame=  449 fps=126 q=27.0 size=    1536kB time=00:00:15.31 bitrate= 821.5kbits/s speed=4.29x
+2026-06-14 11:51:48 - INFO - [ERR] frame=  521 fps=128 q=27.8 size=    1792kB time=00:00:17.72 bitrate= 828.1kbits/s speed=4.34x
+2026-06-14 11:51:48,426 - INFO - [ERR] frame=  521 fps=128 q=27.8 size=    1792kB time=00:00:17.72 bitrate= 828.1kbits/s speed=4.34x
+2026-06-14 11:51:48 - INFO - [ERR] frame=  575 fps=125 q=34.9 size=    2048kB time=00:00:19.52 bitrate= 859.5kbits/s speed=4.25x
+2026-06-14 11:51:48,931 - INFO - [ERR] frame=  575 fps=125 q=34.9 size=    2048kB time=00:00:19.52 bitrate= 859.5kbits/s speed=4.25x
+2026-06-14 11:51:49 - INFO - [ERR] frame=  613 fps=120 q=35.1 size=    2304kB time=00:00:20.77 bitrate= 908.4kbits/s speed=4.07x
+2026-06-14 11:51:49,431 - INFO - [ERR] frame=  613 fps=120 q=35.1 size=    2304kB time=00:00:20.77 bitrate= 908.4kbits/s speed=4.07x
+2026-06-14 11:51:49 - INFO - [ERR] frame=  650 fps=116 q=31.0 size=    2560kB time=00:00:22.03 bitrate= 951.7kbits/s speed=3.93x
+2026-06-14 11:51:49,938 - INFO - [ERR] frame=  650 fps=116 q=31.0 size=    2560kB time=00:00:22.03 bitrate= 951.7kbits/s speed=3.93x
+2026-06-14 11:51:50 - INFO - [ERR] frame=  685 fps=112 q=30.9 size=    2816kB time=00:00:23.18 bitrate= 994.8kbits/s speed= 3.8x
+2026-06-14 11:51:50,439 - INFO - [ERR] frame=  685 fps=112 q=30.9 size=    2816kB time=00:00:23.18 bitrate= 994.8kbits/s speed= 3.8x
+2026-06-14 11:51:50 - INFO - [ERR] frame=  723 fps=109 q=35.0 size=    3328kB time=00:00:24.44 bitrate=1115.2kbits/s speed= 3.7x
+2026-06-14 11:51:50,951 - INFO - [ERR] frame=  723 fps=109 q=35.0 size=    3328kB time=00:00:24.44 bitrate=1115.2kbits/s speed= 3.7x
+2026-06-14 11:51:51 - INFO - [ERR] frame=  759 fps=107 q=32.1 size=    3584kB time=00:00:25.66 bitrate=1144.0kbits/s speed=3.61x
+2026-06-14 11:51:51,453 - INFO - [ERR] frame=  759 fps=107 q=32.1 size=    3584kB time=00:00:25.66 bitrate=1144.0kbits/s speed=3.61x
+2026-06-14 11:51:51 - INFO - [ERR] frame=  791 fps=104 q=30.6 size=    3840kB time=00:00:26.73 bitrate=1176.8kbits/s speed=3.51x
+2026-06-14 11:51:51,974 - INFO - [ERR] frame=  791 fps=104 q=30.6 size=    3840kB time=00:00:26.73 bitrate=1176.8kbits/s speed=3.51x
+2026-06-14 11:51:52 - INFO - [ERR] frame=  822 fps=101 q=34.4 size=    4352kB time=00:00:27.73 bitrate=1285.5kbits/s speed=3.41x
+2026-06-14 11:51:52,467 - INFO - [ERR] frame=  822 fps=101 q=34.4 size=    4352kB time=00:00:27.73 bitrate=1285.5kbits/s speed=3.41x
+2026-06-14 11:51:52 - INFO - [ERR] frame=  854 fps= 99 q=30.2 size=    4608kB time=00:00:28.80 bitrate=1310.7kbits/s speed=3.34x
+2026-06-14 11:51:52,975 - INFO - [ERR] frame=  854 fps= 99 q=30.2 size=    4608kB time=00:00:28.80 bitrate=1310.7kbits/s speed=3.34x
+2026-06-14 11:51:53 - INFO - [ERR] frame=  885 fps= 97 q=34.6 size=    4864kB time=00:00:29.84 bitrate=1335.1kbits/s speed=3.26x
+2026-06-14 11:51:53,475 - INFO - [ERR] frame=  885 fps= 97 q=34.6 size=    4864kB time=00:00:29.84 bitrate=1335.1kbits/s speed=3.26x
+2026-06-14 11:51:53 - INFO - [ERR] frame=  918 fps= 95 q=30.3 size=    5376kB time=00:00:30.95 bitrate=1422.7kbits/s speed=3.21x
+2026-06-14 11:51:53,976 - INFO - [ERR] frame=  918 fps= 95 q=30.3 size=    5376kB time=00:00:30.95 bitrate=1422.7kbits/s speed=3.21x
+2026-06-14 11:51:54 - INFO - [ERR] frame=  954 fps= 94 q=30.5 size=    5632kB time=00:00:32.17 bitrate=1434.2kbits/s speed=3.17x
+2026-06-14 11:51:54,480 - INFO - [ERR] frame=  954 fps= 94 q=30.5 size=    5632kB time=00:00:32.17 bitrate=1434.2kbits/s speed=3.17x
+2026-06-14 11:51:54 - INFO - [ERR] frame=  999 fps= 94 q=25.9 size=    5888kB time=00:00:33.66 bitrate=1432.8kbits/s speed=3.16x
+2026-06-14 11:51:54,991 - INFO - [ERR] frame=  999 fps= 94 q=25.9 size=    5888kB time=00:00:33.66 bitrate=1432.8kbits/s speed=3.16x
+2026-06-14 11:51:55 - INFO - [ERR] frame= 1046 fps= 94 q=35.2 size=    6144kB time=00:00:35.22 bitrate=1429.0kbits/s speed=3.16x
+2026-06-14 11:51:55,495 - INFO - [ERR] frame= 1046 fps= 94 q=35.2 size=    6144kB time=00:00:35.22 bitrate=1429.0kbits/s speed=3.16x
+2026-06-14 11:51:56 - INFO - [ERR] frame= 1091 fps= 94 q=29.5 size=    6400kB time=00:00:36.71 bitrate=1428.0kbits/s speed=3.15x
+2026-06-14 11:51:56,007 - INFO - [ERR] frame= 1091 fps= 94 q=29.5 size=    6400kB time=00:00:36.71 bitrate=1428.0kbits/s speed=3.15x
+2026-06-14 11:51:56 - INFO - [ERR] frame= 1129 fps= 93 q=32.7 size=    6656kB time=00:00:37.99 bitrate=1435.1kbits/s speed=3.12x
+2026-06-14 11:51:56,521 - INFO - [ERR] frame= 1129 fps= 93 q=32.7 size=    6656kB time=00:00:37.99 bitrate=1435.1kbits/s speed=3.12x
+2026-06-14 11:51:57 - INFO - [ERR] frame= 1168 fps= 92 q=34.9 size=    7168kB time=00:00:39.29 bitrate=1494.3kbits/s speed= 3.1x
+2026-06-14 11:51:57,039 - INFO - [ERR] frame= 1168 fps= 92 q=34.9 size=    7168kB time=00:00:39.29 bitrate=1494.3kbits/s speed= 3.1x
+2026-06-14 11:51:57 - INFO - [ERR] frame= 1207 fps= 91 q=33.4 size=    7424kB time=00:00:40.59 bitrate=1498.1kbits/s speed=3.07x
+2026-06-14 11:51:57,539 - INFO - [ERR] frame= 1207 fps= 91 q=33.4 size=    7424kB time=00:00:40.59 bitrate=1498.1kbits/s speed=3.07x
+2026-06-14 11:51:58 - INFO - [ERR] frame= 1248 fps= 91 q=34.8 size=    7680kB time=00:00:41.96 bitrate=1499.3kbits/s speed=3.06x
+2026-06-14 11:51:58,054 - INFO - [ERR] frame= 1248 fps= 91 q=34.8 size=    7680kB time=00:00:41.96 bitrate=1499.3kbits/s speed=3.06x
+2026-06-14 11:51:58 - INFO - [ERR] frame= 1282 fps= 90 q=30.5 size=    7936kB time=00:00:43.09 bitrate=1508.6kbits/s speed=3.03x
+2026-06-14 11:51:58,569 - INFO - [ERR] frame= 1282 fps= 90 q=30.5 size=    7936kB time=00:00:43.09 bitrate=1508.6kbits/s speed=3.03x
+2026-06-14 11:51:59 - INFO - [ERR] frame= 1321 fps= 90 q=33.5 size=    8192kB time=00:00:44.39 bitrate=1511.7kbits/s speed=3.01x
+2026-06-14 11:51:59,069 - INFO - [ERR] frame= 1321 fps= 90 q=33.5 size=    8192kB time=00:00:44.39 bitrate=1511.7kbits/s speed=3.01x
+2026-06-14 11:51:59 - INFO - [ERR] frame= 1366 fps= 90 q=35.3 size=    8448kB time=00:00:45.86 bitrate=1508.9kbits/s speed=3.01x
+2026-06-14 11:51:59,578 - INFO - [ERR] frame= 1366 fps= 90 q=35.3 size=    8448kB time=00:00:45.86 bitrate=1508.9kbits/s speed=3.01x
+2026-06-14 11:52:00 - INFO - [ERR] frame= 1399 fps= 89 q=29.9 size=    8704kB time=00:00:46.99 bitrate=1517.2kbits/s speed=2.98x
+2026-06-14 11:52:00,094 - INFO - [ERR] frame= 1399 fps= 89 q=29.9 size=    8704kB time=00:00:46.99 bitrate=1517.2kbits/s speed=2.98x
+2026-06-14 11:52:00 - INFO - [ERR] frame= 1436 fps= 88 q=25.2 size=    8960kB time=00:00:48.21 bitrate=1522.4kbits/s speed=2.96x
+2026-06-14 11:52:00,594 - INFO - [ERR] frame= 1436 fps= 88 q=25.2 size=    8960kB time=00:00:48.21 bitrate=1522.4kbits/s speed=2.96x
+2026-06-14 11:52:01 - INFO - [ERR] frame= 1509 fps= 90 q=28.6 size=    9216kB time=00:00:50.64 bitrate=1490.7kbits/s speed=3.02x
+2026-06-14 11:52:01,095 - INFO - [ERR] frame= 1509 fps= 90 q=28.6 size=    9216kB time=00:00:50.64 bitrate=1490.7kbits/s speed=3.02x
+2026-06-14 11:52:01 - INFO - [ERR] frame= 1575 fps= 91 q=26.6 size=    9216kB time=00:00:52.86 bitrate=1428.2kbits/s speed=3.06x
+2026-06-14 11:52:01,600 - INFO - [ERR] frame= 1575 fps= 91 q=26.6 size=    9216kB time=00:00:52.86 bitrate=1428.2kbits/s speed=3.06x
+2026-06-14 11:52:02 - INFO - [ERR] frame= 1648 fps= 93 q=33.0 size=    9472kB time=00:00:55.29 bitrate=1403.3kbits/s speed=3.11x
+2026-06-14 11:52:02,101 - INFO - [ERR] frame= 1648 fps= 93 q=33.0 size=    9472kB time=00:00:55.29 bitrate=1403.3kbits/s speed=3.11x
+2026-06-14 11:52:02 - INFO - [ERR] frame= 1717 fps= 94 q=27.3 size=    9728kB time=00:00:57.60 bitrate=1383.5kbits/s speed=3.15x
+2026-06-14 11:52:02,608 - INFO - [ERR] frame= 1717 fps= 94 q=27.3 size=    9728kB time=00:00:57.60 bitrate=1383.5kbits/s speed=3.15x
+2026-06-14 11:52:03 - INFO - [ERR] frame= 1794 fps= 96 q=34.2 size=    9728kB time=00:01:00.16 bitrate=1324.7kbits/s speed= 3.2x
+2026-06-14 11:52:03,109 - INFO - [ERR] frame= 1794 fps= 96 q=34.2 size=    9728kB time=00:01:00.16 bitrate=1324.7kbits/s speed= 3.2x
+2026-06-14 11:52:03 - INFO - [ERR] frame= 1870 fps= 97 q=33.6 size=    9984kB time=00:01:02.69 bitrate=1304.5kbits/s speed=3.25x
+2026-06-14 11:52:03,612 - INFO - [ERR] frame= 1870 fps= 97 q=33.6 size=    9984kB time=00:01:02.69 bitrate=1304.5kbits/s speed=3.25x
+2026-06-14 11:52:04 - INFO - [ERR] frame= 1908 fps= 96 q=32.7 size=   10240kB time=00:01:03.95 bitrate=1311.6kbits/s speed=3.23x
+2026-06-14 11:52:04,116 - INFO - [ERR] frame= 1908 fps= 96 q=32.7 size=   10240kB time=00:01:03.95 bitrate=1311.6kbits/s speed=3.23x
+2026-06-14 11:52:04 - INFO - [ERR] frame= 1951 fps= 96 q=30.2 size=   10496kB time=00:01:05.38 bitrate=1315.0kbits/s speed=3.22x
+2026-06-14 11:52:04,620 - INFO - [ERR] frame= 1951 fps= 96 q=30.2 size=   10496kB time=00:01:05.38 bitrate=1315.0kbits/s speed=3.22x
+2026-06-14 11:52:05 - INFO - [ERR] frame= 2001 fps= 96 q=32.3 size=   10752kB time=00:01:07.05 bitrate=1313.6kbits/s speed=3.23x
+2026-06-14 11:52:05,123 - INFO - [ERR] frame= 2001 fps= 96 q=32.3 size=   10752kB time=00:01:07.05 bitrate=1313.6kbits/s speed=3.23x
+2026-06-14 11:52:05 - INFO - [ERR] frame= 2049 fps= 96 q=34.4 size=   11008kB time=00:01:08.65 bitrate=1313.6kbits/s speed=3.22x
+2026-06-14 11:52:05,629 - INFO - [ERR] frame= 2049 fps= 96 q=34.4 size=   11008kB time=00:01:08.65 bitrate=1313.6kbits/s speed=3.22x
+2026-06-14 11:52:06 - INFO - [ERR] frame= 2091 fps= 96 q=31.2 size=   11264kB time=00:01:10.05 bitrate=1317.1kbits/s speed=3.21x
+2026-06-14 11:52:06,132 - INFO - [ERR] frame= 2091 fps= 96 q=31.2 size=   11264kB time=00:01:10.05 bitrate=1317.1kbits/s speed=3.21x
+2026-06-14 11:52:06 - INFO - [ERR] frame= 2130 fps= 96 q=32.9 size=   11776kB time=00:01:11.36 bitrate=1351.9kbits/s speed= 3.2x
+2026-06-14 11:52:06,637 - INFO - [ERR] frame= 2130 fps= 96 q=32.9 size=   11776kB time=00:01:11.36 bitrate=1351.9kbits/s speed= 3.2x
+2026-06-14 11:52:07 - INFO - [ERR] frame= 2173 fps= 95 q=34.0 size=   12032kB time=00:01:12.78 bitrate=1354.1kbits/s speed=3.19x
+2026-06-14 11:52:07,146 - INFO - [ERR] frame= 2173 fps= 95 q=34.0 size=   12032kB time=00:01:12.78 bitrate=1354.1kbits/s speed=3.19x
+2026-06-14 11:52:07 - INFO - [ERR] frame= 2213 fps= 95 q=31.9 size=   12288kB time=00:01:14.11 bitrate=1358.3kbits/s speed=3.18x
+2026-06-14 11:52:07,647 - INFO - [ERR] frame= 2213 fps= 95 q=31.9 size=   12288kB time=00:01:14.11 bitrate=1358.3kbits/s speed=3.18x
+2026-06-14 11:52:08 - INFO - [ERR] frame= 2245 fps= 94 q=34.5 size=   12544kB time=00:01:15.17 bitrate=1366.9kbits/s speed=3.16x
+2026-06-14 11:52:08,148 - INFO - [ERR] frame= 2245 fps= 94 q=34.5 size=   12544kB time=00:01:15.17 bitrate=1366.9kbits/s speed=3.16x
+2026-06-14 11:52:08 - INFO - [ERR] frame= 2278 fps= 94 q=34.9 size=   12800kB time=00:01:16.28 bitrate=1374.5kbits/s speed=3.14x
+2026-06-14 11:52:08,692 - INFO - [ERR] frame= 2278 fps= 94 q=34.9 size=   12800kB time=00:01:16.28 bitrate=1374.5kbits/s speed=3.14x
+2026-06-14 11:52:09 - INFO - [ERR] frame= 2316 fps= 93 q=27.0 size=   13056kB time=00:01:17.54 bitrate=1379.2kbits/s speed=3.12x
+2026-06-14 11:52:09,193 - INFO - [ERR] frame= 2316 fps= 93 q=27.0 size=   13056kB time=00:01:17.54 bitrate=1379.2kbits/s speed=3.12x
+2026-06-14 11:52:09 - INFO - [ERR] frame= 2352 fps= 93 q=35.7 size=   13312kB time=00:01:18.76 bitrate=1384.6kbits/s speed=3.11x
+2026-06-14 11:52:09,695 - INFO - [ERR] frame= 2352 fps= 93 q=35.7 size=   13312kB time=00:01:18.76 bitrate=1384.6kbits/s speed=3.11x
+2026-06-14 11:52:10 - INFO - [ERR] frame= 2381 fps= 92 q=32.7 size=   13568kB time=00:01:19.74 bitrate=1393.8kbits/s speed=3.08x
+2026-06-14 11:52:10,216 - INFO - [ERR] frame= 2381 fps= 92 q=32.7 size=   13568kB time=00:01:19.74 bitrate=1393.8kbits/s speed=3.08x
+2026-06-14 11:52:10 - INFO - [ERR] frame= 2416 fps= 92 q=29.3 size=   13824kB time=00:01:20.89 bitrate=1399.9kbits/s speed=3.07x
+2026-06-14 11:52:10,738 - INFO - [ERR] frame= 2416 fps= 92 q=29.3 size=   13824kB time=00:01:20.89 bitrate=1399.9kbits/s speed=3.07x
+2026-06-14 11:52:11 - INFO - [ERR] frame= 2449 fps= 91 q=32.1 size=   14080kB time=00:01:21.98 bitrate=1406.9kbits/s speed=3.05x
+2026-06-14 11:52:11,242 - INFO - [ERR] frame= 2449 fps= 91 q=32.1 size=   14080kB time=00:01:21.98 bitrate=1406.9kbits/s speed=3.05x
+2026-06-14 11:52:11 - INFO - [ERR] frame= 2484 fps= 91 q=34.9 size=   14336kB time=00:01:23.13 bitrate=1412.6kbits/s speed=3.03x
+2026-06-14 11:52:11,749 - INFO - [ERR] frame= 2484 fps= 91 q=34.9 size=   14336kB time=00:01:23.13 bitrate=1412.6kbits/s speed=3.03x
+2026-06-14 11:52:12 - INFO - [ERR] frame= 2517 fps= 90 q=29.7 size=   14592kB time=00:01:24.24 bitrate=1418.9kbits/s speed=3.02x
+2026-06-14 11:52:12,266 - INFO - [ERR] frame= 2517 fps= 90 q=29.7 size=   14592kB time=00:01:24.24 bitrate=1418.9kbits/s speed=3.02x
+2026-06-14 11:52:12 - INFO - [ERR] frame= 2551 fps= 90 q=30.2 size=   14848kB time=00:01:25.39 bitrate=1424.3kbits/s speed=   3x
+2026-06-14 11:52:12,770 - INFO - [ERR] frame= 2551 fps= 90 q=30.2 size=   14848kB time=00:01:25.39 bitrate=1424.3kbits/s speed=   3x
+2026-06-14 11:52:13 - INFO - [ERR] frame= 2589 fps= 89 q=35.6 size=   15104kB time=00:01:26.65 bitrate=1427.9kbits/s speed=2.99x
+2026-06-14 11:52:13,271 - INFO - [ERR] frame= 2589 fps= 89 q=35.6 size=   15104kB time=00:01:26.65 bitrate=1427.9kbits/s speed=2.99x
+2026-06-14 11:52:13 - INFO - [ERR] frame= 2627 fps= 89 q=35.2 size=   15360kB time=00:01:27.91 bitrate=1431.3kbits/s speed=2.99x
+2026-06-14 11:52:13,791 - INFO - [ERR] frame= 2627 fps= 89 q=35.2 size=   15360kB time=00:01:27.91 bitrate=1431.3kbits/s speed=2.99x
+2026-06-14 11:52:14 - INFO - [ERR] frame= 2660 fps= 89 q=29.2 size=   15616kB time=00:01:29.02 bitrate=1437.0kbits/s speed=2.97x
+2026-06-14 11:52:14,300 - INFO - [ERR] frame= 2660 fps= 89 q=29.2 size=   15616kB time=00:01:29.02 bitrate=1437.0kbits/s speed=2.97x
+2026-06-14 11:52:14 - INFO - [ERR] frame= 2694 fps= 88 q=30.1 size=   15872kB time=00:01:30.15 bitrate=1442.2kbits/s speed=2.96x
+2026-06-14 11:52:14,801 - INFO - [ERR] frame= 2694 fps= 88 q=30.1 size=   15872kB time=00:01:30.15 bitrate=1442.2kbits/s speed=2.96x
+2026-06-14 11:52:15 - INFO - [ERR] frame= 2730 fps= 88 q=28.2 size=   16128kB time=00:01:31.34 bitrate=1446.3kbits/s speed=2.95x
+2026-06-14 11:52:15,314 - INFO - [ERR] frame= 2730 fps= 88 q=28.2 size=   16128kB time=00:01:31.34 bitrate=1446.3kbits/s speed=2.95x
+2026-06-14 11:52:15 - INFO - [ERR] frame= 2774 fps= 88 q=27.6 size=   16384kB time=00:01:32.82 bitrate=1446.0kbits/s speed=2.95x
+2026-06-14 11:52:15,814 - INFO - [ERR] frame= 2774 fps= 88 q=27.6 size=   16384kB time=00:01:32.82 bitrate=1446.0kbits/s speed=2.95x
+2026-06-14 11:52:16 - INFO - [ERR] frame= 2823 fps= 88 q=30.0 size=   16640kB time=00:01:34.46 bitrate=1443.0kbits/s speed=2.95x
+2026-06-14 11:52:16,327 - INFO - [ERR] frame= 2823 fps= 88 q=30.0 size=   16640kB time=00:01:34.46 bitrate=1443.0kbits/s speed=2.95x
+2026-06-14 11:52:16 - INFO - [ERR] frame= 2861 fps= 88 q=32.8 size=   16896kB time=00:01:35.72 bitrate=1446.0kbits/s speed=2.95x
+2026-06-14 11:52:16,831 - INFO - [ERR] frame= 2861 fps= 88 q=32.8 size=   16896kB time=00:01:35.72 bitrate=1446.0kbits/s speed=2.95x
+2026-06-14 11:52:17 - INFO - [ERR] frame= 2900 fps= 88 q=34.4 size=   17152kB time=00:01:37.02 bitrate=1448.2kbits/s speed=2.94x
+2026-06-14 11:52:17,331 - INFO - [ERR] frame= 2900 fps= 88 q=34.4 size=   17152kB time=00:01:37.02 bitrate=1448.2kbits/s speed=2.94x
+2026-06-14 11:52:17 - INFO - [ERR] frame= 2940 fps= 88 q=29.2 size=   17152kB time=00:01:38.34 bitrate=1428.7kbits/s speed=2.94x
+2026-06-14 11:52:17,833 - INFO - [ERR] frame= 2940 fps= 88 q=29.2 size=   17152kB time=00:01:38.34 bitrate=1428.7kbits/s speed=2.94x
+2026-06-14 11:52:18 - INFO - [ERR] frame= 2992 fps= 88 q=29.4 size=   17408kB time=00:01:40.09 bitrate=1424.7kbits/s speed=2.94x
+2026-06-14 11:52:18,342 - INFO - [ERR] frame= 2992 fps= 88 q=29.4 size=   17408kB time=00:01:40.09 bitrate=1424.7kbits/s speed=2.94x
+2026-06-14 11:52:18 - INFO - [ERR] frame= 3040 fps= 88 q=29.8 size=   17664kB time=00:01:41.69 bitrate=1422.9kbits/s speed=2.95x
+2026-06-14 11:52:18,850 - INFO - [ERR] frame= 3040 fps= 88 q=29.8 size=   17664kB time=00:01:41.69 bitrate=1422.9kbits/s speed=2.95x
+2026-06-14 11:52:19 - INFO - [ERR] frame= 3103 fps= 89 q=28.8 size=   17920kB time=00:01:43.78 bitrate=1414.4kbits/s speed=2.96x
+2026-06-14 11:52:19,350 - INFO - [ERR] frame= 3103 fps= 89 q=28.8 size=   17920kB time=00:01:43.78 bitrate=1414.4kbits/s speed=2.96x
+2026-06-14 11:52:19 - INFO - [ERR] frame= 3200 fps= 90 q=35.5 size=   18176kB time=00:01:47.02 bitrate=1391.2kbits/s speed=3.01x
+2026-06-14 11:52:19,852 - INFO - [ERR] frame= 3200 fps= 90 q=35.5 size=   18176kB time=00:01:47.02 bitrate=1391.2kbits/s speed=3.01x
+2026-06-14 11:52:20 - INFO - [ERR] frame= 3271 fps= 91 q=35.6 size=   18432kB time=00:01:49.39 bitrate=1380.2kbits/s speed=3.04x
+2026-06-14 11:52:20,358 - INFO - [ERR] frame= 3271 fps= 91 q=35.6 size=   18432kB time=00:01:49.39 bitrate=1380.2kbits/s speed=3.04x
+2026-06-14 11:52:20 - INFO - [ERR] frame= 3350 fps= 92 q=34.1 size=   18432kB time=00:01:52.00 bitrate=1348.2kbits/s speed=3.07x
+2026-06-14 11:52:20,863 - INFO - [ERR] frame= 3350 fps= 92 q=34.1 size=   18432kB time=00:01:52.00 bitrate=1348.2kbits/s speed=3.07x
+2026-06-14 11:52:21 - INFO - [ERR] frame= 3423 fps= 92 q=27.8 size=   18688kB time=00:01:54.45 bitrate=1337.6kbits/s speed=3.09x
+2026-06-14 11:52:21,374 - INFO - [ERR] frame= 3423 fps= 92 q=27.8 size=   18688kB time=00:01:54.45 bitrate=1337.6kbits/s speed=3.09x
+2026-06-14 11:52:21 - INFO - [ERR] frame= 3490 fps= 93 q=29.7 size=   18944kB time=00:01:56.69 bitrate=1329.9kbits/s speed=3.11x
+2026-06-14 11:52:21,878 - INFO - [ERR] frame= 3490 fps= 93 q=29.7 size=   18944kB time=00:01:56.69 bitrate=1329.9kbits/s speed=3.11x
+2026-06-14 11:52:22 - INFO - [ERR] frame= 3519 fps= 92 q=33.1 size=   19200kB time=00:01:57.65 bitrate=1336.9kbits/s speed=3.09x
+2026-06-14 11:52:22,383 - INFO - [ERR] frame= 3519 fps= 92 q=33.1 size=   19200kB time=00:01:57.65 bitrate=1336.9kbits/s speed=3.09x
+2026-06-14 11:52:22 - INFO - [ERR] frame= 3552 fps= 92 q=29.6 size=   19456kB time=00:01:58.76 bitrate=1342.0kbits/s speed=3.08x
+2026-06-14 11:52:22,891 - INFO - [ERR] frame= 3552 fps= 92 q=29.6 size=   19456kB time=00:01:58.76 bitrate=1342.0kbits/s speed=3.08x
+2026-06-14 11:52:23 - INFO - [ERR] frame= 3590 fps= 92 q=34.8 size=   19712kB time=00:02:00.02 bitrate=1345.4kbits/s speed=3.07x
+2026-06-14 11:52:23,449 - INFO - [ERR] frame= 3590 fps= 92 q=34.8 size=   19712kB time=00:02:00.02 bitrate=1345.4kbits/s speed=3.07x
+2026-06-14 11:52:23 - INFO - [ERR] frame= 3632 fps= 92 q=29.9 size=   19968kB time=00:02:01.42 bitrate=1347.1kbits/s speed=3.06x
+2026-06-14 11:52:23,959 - INFO - [ERR] frame= 3632 fps= 92 q=29.9 size=   19968kB time=00:02:01.42 bitrate=1347.1kbits/s speed=3.06x
+2026-06-14 11:52:24 - INFO - [ERR] frame= 3670 fps= 91 q=34.6 size=   20224kB time=00:02:02.68 bitrate=1350.4kbits/s speed=3.06x
+2026-06-14 11:52:24,464 - INFO - [ERR] frame= 3670 fps= 91 q=34.6 size=   20224kB time=00:02:02.68 bitrate=1350.4kbits/s speed=3.06x
+2026-06-14 11:52:24 - INFO - [ERR] frame= 3713 fps= 91 q=29.1 size=   20480kB time=00:02:04.11 bitrate=1351.7kbits/s speed=3.05x
+2026-06-14 11:52:24,970 - INFO - [ERR] frame= 3713 fps= 91 q=29.1 size=   20480kB time=00:02:04.11 bitrate=1351.7kbits/s speed=3.05x
+2026-06-14 11:52:25 - INFO - [ERR] frame= 3755 fps= 91 q=29.2 size=   20736kB time=00:02:05.52 bitrate=1353.3kbits/s speed=3.05x
+2026-06-14 11:52:25,475 - INFO - [ERR] frame= 3755 fps= 91 q=29.2 size=   20736kB time=00:02:05.52 bitrate=1353.3kbits/s speed=3.05x
+2026-06-14 11:52:25 - INFO - [ERR] frame= 3786 fps= 91 q=30.3 size=   20736kB time=00:02:06.54 bitrate=1342.3kbits/s speed=3.04x
+2026-06-14 11:52:25,978 - INFO - [ERR] frame= 3786 fps= 91 q=30.3 size=   20736kB time=00:02:06.54 bitrate=1342.3kbits/s speed=3.04x
+2026-06-14 11:52:26 - INFO - [ERR] frame= 3817 fps= 91 q=30.8 size=   20992kB time=00:02:07.59 bitrate=1347.8kbits/s speed=3.03x
+2026-06-14 11:52:26,485 - INFO - [ERR] frame= 3817 fps= 91 q=30.8 size=   20992kB time=00:02:07.59 bitrate=1347.8kbits/s speed=3.03x
+2026-06-14 11:52:26 - INFO - [ERR] frame= 3866 fps= 91 q=32.1 size=   21248kB time=00:02:09.21 bitrate=1347.1kbits/s speed=3.03x
+2026-06-14 11:52:26,985 - INFO - [ERR] frame= 3866 fps= 91 q=32.1 size=   21248kB time=00:02:09.21 bitrate=1347.1kbits/s speed=3.03x
+2026-06-14 11:52:27 - INFO - [ERR] frame= 3910 fps= 91 q=33.1 size=   21504kB time=00:02:10.70 bitrate=1347.7kbits/s speed=3.03x
+2026-06-14 11:52:27,490 - INFO - [ERR] frame= 3910 fps= 91 q=33.1 size=   21504kB time=00:02:10.70 bitrate=1347.7kbits/s speed=3.03x
+2026-06-14 11:52:27 - INFO - [ERR] frame= 3965 fps= 91 q=28.4 size=   21760kB time=00:02:12.52 bitrate=1345.1kbits/s speed=3.04x
+2026-06-14 11:52:27,997 - INFO - [ERR] frame= 3965 fps= 91 q=28.4 size=   21760kB time=00:02:12.52 bitrate=1345.1kbits/s speed=3.04x
+2026-06-14 11:52:28 - INFO - [ERR] frame= 4022 fps= 91 q=29.2 size=   22016kB time=00:02:14.42 bitrate=1341.7kbits/s speed=3.04x
+2026-06-14 11:52:28,510 - INFO - [ERR] frame= 4022 fps= 91 q=29.2 size=   22016kB time=00:02:14.42 bitrate=1341.7kbits/s speed=3.04x
+2026-06-14 11:52:29 - INFO - [ERR] frame= 4072 fps= 91 q=34.8 size=   22272kB time=00:02:16.08 bitrate=1340.7kbits/s speed=3.05x
+2026-06-14 11:52:29,015 - INFO - [ERR] frame= 4072 fps= 91 q=34.8 size=   22272kB time=00:02:16.08 bitrate=1340.7kbits/s speed=3.05x
+2026-06-14 11:52:29 - INFO - [ERR] frame= 4117 fps= 91 q=30.5 size=   22272kB time=00:02:17.57 bitrate=1326.2kbits/s speed=3.04x
+2026-06-14 11:52:29,520 - INFO - [ERR] frame= 4117 fps= 91 q=30.5 size=   22272kB time=00:02:17.57 bitrate=1326.2kbits/s speed=3.04x
+2026-06-14 11:52:30 - INFO - [ERR] frame= 4160 fps= 91 q=28.5 size=   22528kB time=00:02:19.02 bitrate=1327.4kbits/s speed=3.04x
+2026-06-14 11:52:30,025 - INFO - [ERR] frame= 4160 fps= 91 q=28.5 size=   22528kB time=00:02:19.02 bitrate=1327.4kbits/s speed=3.04x
+2026-06-14 11:52:30 - INFO - [ERR] frame= 4217 fps= 91 q=29.3 size=   22784kB time=00:02:20.92 bitrate=1324.4kbits/s speed=3.05x
+2026-06-14 11:52:30,540 - INFO - [ERR] frame= 4217 fps= 91 q=29.3 size=   22784kB time=00:02:20.92 bitrate=1324.4kbits/s speed=3.05x
+2026-06-14 11:52:31 - INFO - [ERR] frame= 4265 fps= 91 q=33.2 size=   23040kB time=00:02:22.52 bitrate=1324.3kbits/s speed=3.05x
+2026-06-14 11:52:31,047 - INFO - [ERR] frame= 4265 fps= 91 q=33.2 size=   23040kB time=00:02:22.52 bitrate=1324.3kbits/s speed=3.05x
+2026-06-14 11:52:31 - INFO - [ERR] frame= 4296 fps= 91 q=32.4 size=   23552kB time=00:02:23.55 bitrate=1344.0kbits/s speed=3.04x
+2026-06-14 11:52:31,553 - INFO - [ERR] frame= 4296 fps= 91 q=32.4 size=   23552kB time=00:02:23.55 bitrate=1344.0kbits/s speed=3.04x
+2026-06-14 11:52:32 - INFO - [ERR] frame= 4331 fps= 91 q=32.8 size=   23808kB time=00:02:24.72 bitrate=1347.6kbits/s speed=3.03x
+2026-06-14 11:52:32,068 - INFO - [ERR] frame= 4331 fps= 91 q=32.8 size=   23808kB time=00:02:24.72 bitrate=1347.6kbits/s speed=3.03x
+2026-06-14 11:52:32 - INFO - [ERR] frame= 4377 fps= 91 q=28.6 size=   24064kB time=00:02:26.26 bitrate=1347.8kbits/s speed=3.03x
+2026-06-14 11:52:32,573 - INFO - [ERR] frame= 4377 fps= 91 q=28.6 size=   24064kB time=00:02:26.26 bitrate=1347.8kbits/s speed=3.03x
+2026-06-14 11:52:33 - INFO - [ERR] frame= 4434 fps= 91 q=30.4 size=   24064kB time=00:02:28.16 bitrate=1330.5kbits/s speed=3.04x
+2026-06-14 11:52:33,074 - INFO - [ERR] frame= 4434 fps= 91 q=30.4 size=   24064kB time=00:02:28.16 bitrate=1330.5kbits/s speed=3.04x
+2026-06-14 11:52:33 - INFO - [ERR] frame= 4485 fps= 91 q=29.4 size=   24320kB time=00:02:29.84 bitrate=1329.6kbits/s speed=3.04x
+2026-06-14 11:52:33,588 - INFO - [ERR] frame= 4485 fps= 91 q=29.4 size=   24320kB time=00:02:29.84 bitrate=1329.6kbits/s speed=3.04x
+2026-06-14 11:52:34 - INFO - [ERR] frame= 4524 fps= 91 q=34.4 size=   24576kB time=00:02:31.14 bitrate=1332.0kbits/s speed=3.04x
+2026-06-14 11:52:34,092 - INFO - [ERR] frame= 4524 fps= 91 q=34.4 size=   24576kB time=00:02:31.14 bitrate=1332.0kbits/s speed=3.04x
+2026-06-14 11:52:34 - INFO - [ERR] frame= 4574 fps= 91 q=35.4 size=   24832kB time=00:02:32.83 bitrate=1331.0kbits/s speed=3.04x
+2026-06-14 11:52:34,596 - INFO - [ERR] frame= 4574 fps= 91 q=35.4 size=   24832kB time=00:02:32.83 bitrate=1331.0kbits/s speed=3.04x
+2026-06-14 11:52:35 - INFO - [ERR] frame= 4623 fps= 91 q=35.3 size=   25088kB time=00:02:34.45 bitrate=1330.6kbits/s speed=3.04x
+2026-06-14 11:52:35,104 - INFO - [ERR] frame= 4623 fps= 91 q=35.3 size=   25088kB time=00:02:34.45 bitrate=1330.6kbits/s speed=3.04x
+2026-06-14 11:52:35 - INFO - [ERR] frame= 4674 fps= 91 q=35.3 size=   25344kB time=00:02:36.16 bitrate=1329.5kbits/s speed=3.05x
+2026-06-14 11:52:35,626 - INFO - [ERR] frame= 4674 fps= 91 q=35.3 size=   25344kB time=00:02:36.16 bitrate=1329.5kbits/s speed=3.05x
+2026-06-14 11:52:36 - INFO - [ERR] frame= 4730 fps= 91 q=29.0 size=   25600kB time=00:02:37.99 bitrate=1327.4kbits/s speed=3.05x
+2026-06-14 11:52:36,114 - INFO - [ERR] frame= 4730 fps= 91 q=29.0 size=   25600kB time=00:02:37.99 bitrate=1327.4kbits/s speed=3.05x
+2026-06-14 11:52:36 - INFO - [ERR] frame= 4777 fps= 91 q=32.8 size=   25856kB time=00:02:39.57 bitrate=1327.4kbits/s speed=3.05x
+2026-06-14 11:52:36,646 - INFO - [ERR] frame= 4777 fps= 91 q=32.8 size=   25856kB time=00:02:39.57 bitrate=1327.4kbits/s speed=3.05x
+2026-06-14 11:52:37 - INFO - [ERR] frame= 4821 fps= 91 q=27.0 size=   26112kB time=00:02:41.04 bitrate=1328.3kbits/s speed=3.05x
+2026-06-14 11:52:37,152 - INFO - [ERR] frame= 4821 fps= 91 q=27.0 size=   26112kB time=00:02:41.04 bitrate=1328.3kbits/s speed=3.05x
+2026-06-14 11:52:37 - INFO - [ERR] frame= 4882 fps= 92 q=33.5 size=   26368kB time=00:02:43.09 bitrate=1324.4kbits/s speed=3.06x
+2026-06-14 11:52:37,662 - INFO - [ERR] frame= 4882 fps= 92 q=33.5 size=   26368kB time=00:02:43.09 bitrate=1324.4kbits/s speed=3.06x
+2026-06-14 11:52:38 - INFO - [ERR] frame= 4944 fps= 92 q=27.9 size=   26624kB time=00:02:45.16 bitrate=1320.5kbits/s speed=3.07x
+2026-06-14 11:52:38,167 - INFO - [ERR] frame= 4944 fps= 92 q=27.9 size=   26624kB time=00:02:45.16 bitrate=1320.5kbits/s speed=3.07x
+2026-06-14 11:52:38 - INFO - [ERR] frame= 5009 fps= 92 q=33.9 size=   26624kB time=00:02:47.31 bitrate=1303.5kbits/s speed=3.08x
+2026-06-14 11:52:38,693 - INFO - [ERR] frame= 5009 fps= 92 q=33.9 size=   26624kB time=00:02:47.31 bitrate=1303.5kbits/s speed=3.08x
+2026-06-14 11:52:39 - INFO - [ERR] frame= 5058 fps= 92 q=29.2 size=   26880kB time=00:02:48.96 bitrate=1303.3kbits/s speed=3.08x
+2026-06-14 11:52:39,201 - INFO - [ERR] frame= 5058 fps= 92 q=29.2 size=   26880kB time=00:02:48.96 bitrate=1303.3kbits/s speed=3.08x
+2026-06-14 11:52:39 - INFO - [ERR] frame= 5094 fps= 92 q=30.2 size=   27136kB time=00:02:50.15 bitrate=1306.4kbits/s speed=3.07x
+2026-06-14 11:52:39,706 - INFO - [ERR] frame= 5094 fps= 92 q=30.2 size=   27136kB time=00:02:50.15 bitrate=1306.4kbits/s speed=3.07x
+2026-06-14 11:52:40 - INFO - [ERR] frame= 5129 fps= 92 q=32.6 size=   27392kB time=00:02:51.32 bitrate=1309.7kbits/s speed=3.07x
+2026-06-14 11:52:40,229 - INFO - [ERR] frame= 5129 fps= 92 q=32.6 size=   27392kB time=00:02:51.32 bitrate=1309.7kbits/s speed=3.07x
+2026-06-14 11:52:40 - INFO - [ERR] frame= 5161 fps= 92 q=29.6 size=   27648kB time=00:02:52.39 bitrate=1313.8kbits/s speed=3.06x
+2026-06-14 11:52:40,735 - INFO - [ERR] frame= 5161 fps= 92 q=29.6 size=   27648kB time=00:02:52.39 bitrate=1313.8kbits/s speed=3.06x
+2026-06-14 11:52:41 - INFO - [ERR] frame= 5192 fps= 91 q=29.7 size=   28160kB time=00:02:53.41 bitrate=1330.2kbits/s speed=3.05x
+2026-06-14 11:52:41,242 - INFO - [ERR] frame= 5192 fps= 91 q=29.7 size=   28160kB time=00:02:53.41 bitrate=1330.2kbits/s speed=3.05x
+2026-06-14 11:52:41 - INFO - [ERR] frame= 5224 fps= 91 q=29.3 size=   28416kB time=00:02:54.48 bitrate=1334.1kbits/s speed=3.04x
+2026-06-14 11:52:41,747 - INFO - [ERR] frame= 5224 fps= 91 q=29.3 size=   28416kB time=00:02:54.48 bitrate=1334.1kbits/s speed=3.04x
+2026-06-14 11:52:42 - INFO - [ERR] frame= 5257 fps= 91 q=32.8 size=   28672kB time=00:02:55.59 bitrate=1337.6kbits/s speed=3.03x
+2026-06-14 11:52:42,254 - INFO - [ERR] frame= 5257 fps= 91 q=32.8 size=   28672kB time=00:02:55.59 bitrate=1337.6kbits/s speed=3.03x
+2026-06-14 11:52:42 - INFO - [ERR] frame= 5288 fps= 91 q=29.6 size=   28928kB time=00:02:56.61 bitrate=1341.8kbits/s speed=3.02x
+2026-06-14 11:52:42,758 - INFO - [ERR] frame= 5288 fps= 91 q=29.6 size=   28928kB time=00:02:56.61 bitrate=1341.8kbits/s speed=3.02x
+2026-06-14 11:52:43 - INFO - [ERR] frame= 5324 fps= 90 q=33.9 size=   29184kB time=00:02:57.81 bitrate=1344.5kbits/s speed=3.02x
+2026-06-14 11:52:43,272 - INFO - [ERR] frame= 5324 fps= 90 q=33.9 size=   29184kB time=00:02:57.81 bitrate=1344.5kbits/s speed=3.02x
+2026-06-14 11:52:43 - INFO - [ERR] frame= 5361 fps= 90 q=32.6 size=   29440kB time=00:02:59.05 bitrate=1347.0kbits/s speed=3.01x
+2026-06-14 11:52:43,777 - INFO - [ERR] frame= 5361 fps= 90 q=32.6 size=   29440kB time=00:02:59.05 bitrate=1347.0kbits/s speed=3.01x
+2026-06-14 11:52:44 - INFO - [ERR] frame= 5391 fps= 90 q=35.2 size=   29696kB time=00:03:00.05 bitrate=1351.1kbits/s speed=   3x
+2026-06-14 11:52:44,277 - INFO - [ERR] frame= 5391 fps= 90 q=35.2 size=   29696kB time=00:03:00.05 bitrate=1351.1kbits/s speed=   3x
+2026-06-14 11:52:44 - INFO - [ERR] frame= 5425 fps= 90 q=32.5 size=   29952kB time=00:03:01.18 bitrate=1354.2kbits/s speed=   3x
+2026-06-14 11:52:44,781 - INFO - [ERR] frame= 5425 fps= 90 q=32.5 size=   29952kB time=00:03:01.18 bitrate=1354.2kbits/s speed=   3x
+2026-06-14 11:52:45 - INFO - [ERR] frame= 5458 fps= 90 q=33.7 size=   30208kB time=00:03:02.29 bitrate=1357.5kbits/s speed=2.99x
+2026-06-14 11:52:45,298 - INFO - [ERR] frame= 5458 fps= 90 q=33.7 size=   30208kB time=00:03:02.29 bitrate=1357.5kbits/s speed=2.99x
+2026-06-14 11:52:45 - INFO - [ERR] frame= 5493 fps= 89 q=28.9 size=   30464kB time=00:03:03.42 bitrate=1360.6kbits/s speed=2.98x
+2026-06-14 11:52:45,796 - INFO - [ERR] frame= 5493 fps= 89 q=28.9 size=   30464kB time=00:03:03.42 bitrate=1360.6kbits/s speed=2.98x
+2026-06-14 11:52:46 - INFO - [ERR] frame= 5534 fps= 89 q=29.1 size=   30720kB time=00:03:04.83 bitrate=1361.6kbits/s speed=2.98x
+2026-06-14 11:52:46,306 - INFO - [ERR] frame= 5534 fps= 89 q=29.1 size=   30720kB time=00:03:04.83 bitrate=1361.6kbits/s speed=2.98x
+2026-06-14 11:52:46 - INFO - [ERR] frame= 5577 fps= 89 q=29.1 size=   31232kB time=00:03:06.26 bitrate=1373.6kbits/s speed=2.98x
+2026-06-14 11:52:46,821 - INFO - [ERR] frame= 5577 fps= 89 q=29.1 size=   31232kB time=00:03:06.26 bitrate=1373.6kbits/s speed=2.98x
+2026-06-14 11:52:47 - INFO - [ERR] frame= 5619 fps= 89 q=29.1 size=   31488kB time=00:03:07.64 bitrate=1374.6kbits/s speed=2.98x
+2026-06-14 11:52:47,322 - INFO - [ERR] frame= 5619 fps= 89 q=29.1 size=   31488kB time=00:03:07.64 bitrate=1374.6kbits/s speed=2.98x
+2026-06-14 11:52:47 - INFO - [ERR] frame= 5669 fps= 89 q=34.9 size=   31488kB time=00:03:09.33 bitrate=1362.4kbits/s speed=2.98x
+2026-06-14 11:52:47,823 - INFO - [ERR] frame= 5669 fps= 89 q=34.9 size=   31488kB time=00:03:09.33 bitrate=1362.4kbits/s speed=2.98x
+2026-06-14 11:52:48 - INFO - [ERR] frame= 5711 fps= 89 q=32.1 size=   31744kB time=00:03:10.72 bitrate=1363.5kbits/s speed=2.98x
+2026-06-14 11:52:48,327 - INFO - [ERR] frame= 5711 fps= 89 q=32.1 size=   31744kB time=00:03:10.72 bitrate=1363.5kbits/s speed=2.98x
+2026-06-14 11:52:48 - INFO - [ERR] frame= 5751 fps= 89 q=32.3 size=   32000kB time=00:03:12.06 bitrate=1364.9kbits/s speed=2.98x
+2026-06-14 11:52:48,836 - INFO - [ERR] frame= 5751 fps= 89 q=32.3 size=   32000kB time=00:03:12.06 bitrate=1364.9kbits/s speed=2.98x
+2026-06-14 11:52:49 - INFO - [ERR] frame= 5782 fps= 89 q=29.8 size=   32256kB time=00:03:13.08 bitrate=1368.5kbits/s speed=2.97x
+2026-06-14 11:52:49,341 - INFO - [ERR] frame= 5782 fps= 89 q=29.8 size=   32256kB time=00:03:13.08 bitrate=1368.5kbits/s speed=2.97x
+2026-06-14 11:52:49 - INFO - [ERR] frame= 5820 fps= 89 q=29.7 size=   32512kB time=00:03:14.34 bitrate=1370.4kbits/s speed=2.97x
+2026-06-14 11:52:49,841 - INFO - [ERR] frame= 5820 fps= 89 q=29.7 size=   32512kB time=00:03:14.34 bitrate=1370.4kbits/s speed=2.97x
+2026-06-14 11:52:50 - INFO - [ERR] frame= 5857 fps= 89 q=32.3 size=   32512kB time=00:03:15.60 bitrate=1361.6kbits/s speed=2.96x
+2026-06-14 11:52:50,343 - INFO - [ERR] frame= 5857 fps= 89 q=32.3 size=   32512kB time=00:03:15.60 bitrate=1361.6kbits/s speed=2.96x
+2026-06-14 11:52:50 - INFO - [ERR] frame= 5900 fps= 89 q=29.3 size=   32768kB time=00:03:17.01 bitrate=1362.5kbits/s speed=2.96x
+2026-06-14 11:52:50,852 - INFO - [ERR] frame= 5900 fps= 89 q=29.3 size=   32768kB time=00:03:17.01 bitrate=1362.5kbits/s speed=2.96x
+2026-06-14 11:52:51 - INFO - [ERR] frame= 5934 fps= 89 q=31.2 size=   33024kB time=00:03:18.16 bitrate=1365.2kbits/s speed=2.96x
+2026-06-14 11:52:51,357 - INFO - [ERR] frame= 5934 fps= 89 q=31.2 size=   33024kB time=00:03:18.16 bitrate=1365.2kbits/s speed=2.96x
+2026-06-14 11:52:51 - INFO - [ERR] frame= 5969 fps= 88 q=30.7 size=   33280kB time=00:03:19.31 bitrate=1367.8kbits/s speed=2.95x
+2026-06-14 11:52:51,871 - INFO - [ERR] frame= 5969 fps= 88 q=30.7 size=   33280kB time=00:03:19.31 bitrate=1367.8kbits/s speed=2.95x
+2026-06-14 11:52:52 - INFO - [ERR] frame= 6005 fps= 88 q=31.0 size=   33536kB time=00:03:20.51 bitrate=1370.1kbits/s speed=2.95x
+2026-06-14 11:52:52,376 - INFO - [ERR] frame= 6005 fps= 88 q=31.0 size=   33536kB time=00:03:20.51 bitrate=1370.1kbits/s speed=2.95x
+2026-06-14 11:52:52 - INFO - [ERR] frame= 6044 fps= 88 q=30.4 size=   33792kB time=00:03:21.81 bitrate=1371.7kbits/s speed=2.94x
+2026-06-14 11:52:52,916 - INFO - [ERR] frame= 6044 fps= 88 q=30.4 size=   33792kB time=00:03:21.81 bitrate=1371.7kbits/s speed=2.94x
+2026-06-14 11:52:53 - INFO - [ERR] frame= 6089 fps= 88 q=28.2 size=   34048kB time=00:03:23.32 bitrate=1371.8kbits/s speed=2.94x
+2026-06-14 11:52:53,440 - INFO - [ERR] frame= 6089 fps= 88 q=28.2 size=   34048kB time=00:03:23.32 bitrate=1371.8kbits/s speed=2.94x
+2026-06-14 11:52:53 - INFO - [ERR] frame= 6132 fps= 88 q=30.0 size=   34304kB time=00:03:24.75 bitrate=1372.4kbits/s speed=2.94x
+2026-06-14 11:52:53,954 - INFO - [ERR] frame= 6132 fps= 88 q=30.0 size=   34304kB time=00:03:24.75 bitrate=1372.4kbits/s speed=2.94x
+2026-06-14 11:52:54 - INFO - [ERR] frame= 6175 fps= 88 q=31.2 size=   34560kB time=00:03:26.18 bitrate=1373.1kbits/s speed=2.94x
+2026-06-14 11:52:54,457 - INFO - [ERR] frame= 6175 fps= 88 q=31.2 size=   34560kB time=00:03:26.18 bitrate=1373.1kbits/s speed=2.94x
+2026-06-14 11:52:54 - INFO - [ERR] frame= 6202 fps= 88 q=34.8 size=   35072kB time=00:03:27.08 bitrate=1387.4kbits/s speed=2.93x
+2026-06-14 11:52:54,962 - INFO - [ERR] frame= 6202 fps= 88 q=34.8 size=   35072kB time=00:03:27.08 bitrate=1387.4kbits/s speed=2.93x
+2026-06-14 11:52:55 - INFO - [ERR] frame= 6229 fps= 88 q=35.0 size=   35584kB time=00:03:27.97 bitrate=1401.6kbits/s speed=2.92x
+2026-06-14 11:52:55,468 - INFO - [ERR] frame= 6229 fps= 88 q=35.0 size=   35584kB time=00:03:27.97 bitrate=1401.6kbits/s speed=2.92x
+2026-06-14 11:52:55 - INFO - [ERR] frame= 6256 fps= 87 q=30.2 size=   36096kB time=00:03:28.89 bitrate=1415.5kbits/s speed=2.92x
+2026-06-14 11:52:55,971 - INFO - [ERR] frame= 6256 fps= 87 q=30.2 size=   36096kB time=00:03:28.89 bitrate=1415.5kbits/s speed=2.92x
+2026-06-14 11:52:56 - INFO - [ERR] frame= 6291 fps= 87 q=35.1 size=   36352kB time=00:03:30.04 bitrate=1417.8kbits/s speed=2.91x
+2026-06-14 11:52:56,480 - INFO - [ERR] frame= 6291 fps= 87 q=35.1 size=   36352kB time=00:03:30.04 bitrate=1417.8kbits/s speed=2.91x
+2026-06-14 11:52:56 - INFO - [ERR] frame= 6321 fps= 87 q=31.1 size=   36608kB time=00:03:31.05 bitrate=1421.0kbits/s speed=2.91x
+2026-06-14 11:52:56,982 - INFO - [ERR] frame= 6321 fps= 87 q=31.1 size=   36608kB time=00:03:31.05 bitrate=1421.0kbits/s speed=2.91x
+2026-06-14 11:52:57 - INFO - [ERR] frame= 6346 fps= 87 q=32.8 size=   37120kB time=00:03:31.88 bitrate=1435.2kbits/s speed= 2.9x
+2026-06-14 11:52:57,487 - INFO - [ERR] frame= 6346 fps= 87 q=32.8 size=   37120kB time=00:03:31.88 bitrate=1435.2kbits/s speed= 2.9x
+2026-06-14 11:52:57 - INFO - [ERR] frame= 6404 fps= 87 q=33.8 size=   37632kB time=00:03:33.82 bitrate=1441.8kbits/s speed= 2.9x
+2026-06-14 11:52:57,999 - INFO - [ERR] frame= 6404 fps= 87 q=33.8 size=   37632kB time=00:03:33.82 bitrate=1441.8kbits/s speed= 2.9x
+2026-06-14 11:52:58 - INFO - [ERR] frame= 6460 fps= 87 q=29.6 size=   37888kB time=00:03:35.68 bitrate=1439.1kbits/s speed=2.91x
+2026-06-14 11:52:58,501 - INFO - [ERR] frame= 6460 fps= 87 q=29.6 size=   37888kB time=00:03:35.68 bitrate=1439.1kbits/s speed=2.91x
+2026-06-14 11:52:59 - INFO - [ERR] frame= 6521 fps= 87 q=34.2 size=   38144kB time=00:03:37.72 bitrate=1435.2kbits/s speed=2.92x
+2026-06-14 11:52:59,004 - INFO - [ERR] frame= 6521 fps= 87 q=34.2 size=   38144kB time=00:03:37.72 bitrate=1435.2kbits/s speed=2.92x
+2026-06-14 11:52:59 - INFO - [ERR] frame= 6618 fps= 88 q=34.8 size=   38144kB time=00:03:40.94 bitrate=1414.2kbits/s speed=2.94x
+2026-06-14 11:52:59,510 - INFO - [ERR] frame= 6618 fps= 88 q=34.8 size=   38144kB time=00:03:40.94 bitrate=1414.2kbits/s speed=2.94x
+2026-06-14 11:53:00 - INFO - [ERR] frame= 6705 fps= 89 q=31.8 size=   38144kB time=00:03:43.85 bitrate=1395.9kbits/s speed=2.96x
+2026-06-14 11:53:00,028 - INFO - [ERR] frame= 6705 fps= 89 q=31.8 size=   38144kB time=00:03:43.85 bitrate=1395.9kbits/s speed=2.96x
+2026-06-14 11:53:00 - INFO - [ERR] frame= 6786 fps= 89 q=28.9 size=   38400kB time=00:03:46.56 bitrate=1388.5kbits/s speed=2.97x
+2026-06-14 11:53:00,537 - INFO - [ERR] frame= 6786 fps= 89 q=28.9 size=   38400kB time=00:03:46.56 bitrate=1388.5kbits/s speed=2.97x
+2026-06-14 11:53:01 - INFO - [ERR] frame= 6867 fps= 90 q=34.5 size=   38656kB time=00:03:49.22 bitrate=1381.5kbits/s speed=2.99x
+2026-06-14 11:53:01,029 - INFO - [ERR] frame= 6867 fps= 90 q=34.5 size=   38656kB time=00:03:49.22 bitrate=1381.5kbits/s speed=2.99x
+2026-06-14 11:53:01 - INFO - [ERR] frame= 6916 fps= 90 q=34.1 size=   38656kB time=00:03:50.89 bitrate=1371.5kbits/s speed=2.99x
+2026-06-14 11:53:01,555 - INFO - [ERR] frame= 6916 fps= 90 q=34.1 size=   38656kB time=00:03:50.89 bitrate=1371.5kbits/s speed=2.99x
+2026-06-14 11:53:02 - INFO - [ERR] frame= 6968 fps= 90 q=33.8 size=   38912kB time=00:03:52.61 bitrate=1370.3kbits/s speed=2.99x
+2026-06-14 11:53:02,079 - INFO - [ERR] frame= 6968 fps= 90 q=33.8 size=   38912kB time=00:03:52.61 bitrate=1370.3kbits/s speed=2.99x
+2026-06-14 11:53:02 - INFO - [ERR] frame= 7001 fps= 89 q=29.7 size=   39424kB time=00:03:53.72 bitrate=1381.8kbits/s speed=2.99x
+2026-06-14 11:53:02,592 - INFO - [ERR] frame= 7001 fps= 89 q=29.7 size=   39424kB time=00:03:53.72 bitrate=1381.8kbits/s speed=2.99x
+2026-06-14 11:53:03 - INFO - [ERR] frame= 7038 fps= 89 q=35.1 size=   39680kB time=00:03:54.96 bitrate=1383.4kbits/s speed=2.98x
+2026-06-14 11:53:03,106 - INFO - [ERR] frame= 7038 fps= 89 q=35.1 size=   39680kB time=00:03:54.96 bitrate=1383.4kbits/s speed=2.98x
+2026-06-14 11:53:03 - INFO - [ERR] frame= 7072 fps= 89 q=30.9 size=   39936kB time=00:03:56.09 bitrate=1385.7kbits/s speed=2.98x
+2026-06-14 11:53:03,609 - INFO - [ERR] frame= 7072 fps= 89 q=30.9 size=   39936kB time=00:03:56.09 bitrate=1385.7kbits/s speed=2.98x
+2026-06-14 11:53:04 - INFO - [ERR] frame= 7110 fps= 89 q=32.9 size=   40192kB time=00:03:57.35 bitrate=1387.2kbits/s speed=2.98x
+2026-06-14 11:53:04,111 - INFO - [ERR] frame= 7110 fps= 89 q=32.9 size=   40192kB time=00:03:57.35 bitrate=1387.2kbits/s speed=2.98x
+2026-06-14 11:53:04 - INFO - [ERR] frame= 7151 fps= 89 q=35.3 size=   40448kB time=00:03:58.72 bitrate=1388.0kbits/s speed=2.97x
+2026-06-14 11:53:04,632 - INFO - [ERR] frame= 7151 fps= 89 q=35.3 size=   40448kB time=00:03:58.72 bitrate=1388.0kbits/s speed=2.97x
+2026-06-14 11:53:05 - INFO - [ERR] frame= 7190 fps= 89 q=31.4 size=   40704kB time=00:04:00.02 bitrate=1389.2kbits/s speed=2.97x
+2026-06-14 11:53:05,140 - INFO - [ERR] frame= 7190 fps= 89 q=31.4 size=   40704kB time=00:04:00.02 bitrate=1389.2kbits/s speed=2.97x
+2026-06-14 11:53:05 - INFO - [ERR] frame= 7230 fps= 89 q=29.9 size=   40960kB time=00:04:01.36 bitrate=1390.2kbits/s speed=2.97x
+2026-06-14 11:53:05,648 - INFO - [ERR] frame= 7230 fps= 89 q=29.9 size=   40960kB time=00:04:01.36 bitrate=1390.2kbits/s speed=2.97x
+2026-06-14 11:53:06 - INFO - [ERR] frame= 7280 fps= 89 q=31.6 size=   41216kB time=00:04:03.02 bitrate=1389.3kbits/s speed=2.97x
+2026-06-14 11:53:06,164 - INFO - [ERR] frame= 7280 fps= 89 q=31.6 size=   41216kB time=00:04:03.02 bitrate=1389.3kbits/s speed=2.97x
+2026-06-14 11:53:06 - INFO - [ERR] frame= 7328 fps= 89 q=30.8 size=   41472kB time=00:04:04.62 bitrate=1388.8kbits/s speed=2.97x
+2026-06-14 11:53:06,681 - INFO - [ERR] frame= 7328 fps= 89 q=30.8 size=   41472kB time=00:04:04.62 bitrate=1388.8kbits/s speed=2.97x
+2026-06-14 11:53:07 - INFO - [ERR] frame= 7375 fps= 89 q=29.3 size=   41728kB time=00:04:06.18 bitrate=1388.5kbits/s speed=2.97x
+2026-06-14 11:53:07,181 - INFO - [ERR] frame= 7375 fps= 89 q=29.3 size=   41728kB time=00:04:06.18 bitrate=1388.5kbits/s speed=2.97x
+2026-06-14 11:53:07 - INFO - [ERR] frame= 7418 fps= 89 q=34.1 size=   41984kB time=00:04:07.61 bitrate=1389.0kbits/s speed=2.97x
+2026-06-14 11:53:07,688 - INFO - [ERR] frame= 7418 fps= 89 q=34.1 size=   41984kB time=00:04:07.61 bitrate=1389.0kbits/s speed=2.97x
+2026-06-14 11:53:08 - INFO - [ERR] frame= 7462 fps= 89 q=30.7 size=   41984kB time=00:04:09.08 bitrate=1380.8kbits/s speed=2.97x
+2026-06-14 11:53:08,194 - INFO - [ERR] frame= 7462 fps= 89 q=30.7 size=   41984kB time=00:04:09.08 bitrate=1380.8kbits/s speed=2.97x
+2026-06-14 11:53:08 - INFO - [ERR] frame= 7508 fps= 89 q=34.9 size=   42240kB time=00:04:10.62 bitrate=1380.7kbits/s speed=2.97x
+2026-06-14 11:53:08,708 - INFO - [ERR] frame= 7508 fps= 89 q=34.9 size=   42240kB time=00:04:10.62 bitrate=1380.7kbits/s speed=2.97x
+2026-06-14 11:53:09 - INFO - [ERR] frame= 7558 fps= 89 q=31.6 size=   42496kB time=00:04:12.26 bitrate=1380.0kbits/s speed=2.97x
+2026-06-14 11:53:09,202 - INFO - [ERR] frame= 7558 fps= 89 q=31.6 size=   42496kB time=00:04:12.26 bitrate=1380.0kbits/s speed=2.97x
+2026-06-14 11:53:09 - INFO - [ERR] frame= 7598 fps= 89 q=33.3 size=   42752kB time=00:04:13.63 bitrate=1380.8kbits/s speed=2.97x
+2026-06-14 11:53:09,713 - INFO - [ERR] frame= 7598 fps= 89 q=33.3 size=   42752kB time=00:04:13.63 bitrate=1380.8kbits/s speed=2.97x
+2026-06-14 11:53:10 - INFO - [ERR] frame= 7644 fps= 89 q=29.3 size=   42752kB time=00:04:15.14 bitrate=1372.6kbits/s speed=2.97x
+2026-06-14 11:53:10,220 - INFO - [ERR] frame= 7644 fps= 89 q=29.3 size=   42752kB time=00:04:15.14 bitrate=1372.6kbits/s speed=2.97x
+2026-06-14 11:53:10 - INFO - [ERR] frame= 7682 fps= 89 q=30.7 size=   43008kB time=00:04:16.42 bitrate=1374.0kbits/s speed=2.97x
+2026-06-14 11:53:10,720 - INFO - [ERR] frame= 7682 fps= 89 q=30.7 size=   43008kB time=00:04:16.42 bitrate=1374.0kbits/s speed=2.97x
+2026-06-14 11:53:11 - INFO - [ERR] frame= 7727 fps= 89 q=33.1 size=   43264kB time=00:04:17.92 bitrate=1374.1kbits/s speed=2.97x
+2026-06-14 11:53:11,235 - INFO - [ERR] frame= 7727 fps= 89 q=33.1 size=   43264kB time=00:04:17.92 bitrate=1374.1kbits/s speed=2.97x
+2026-06-14 11:53:11 - INFO - [ERR] frame= 7772 fps= 89 q=30.4 size=   43520kB time=00:04:19.41 bitrate=1374.3kbits/s speed=2.97x
+2026-06-14 11:53:11,751 - INFO - [ERR] frame= 7772 fps= 89 q=30.4 size=   43520kB time=00:04:19.41 bitrate=1374.3kbits/s speed=2.97x
+2026-06-14 11:53:12 - INFO - [ERR] frame= 7812 fps= 89 q=34.9 size=   44032kB time=00:04:20.75 bitrate=1383.3kbits/s speed=2.97x
+2026-06-14 11:53:12,252 - INFO - [ERR] frame= 7812 fps= 89 q=34.9 size=   44032kB time=00:04:20.75 bitrate=1383.3kbits/s speed=2.97x
+2026-06-14 11:53:12 - INFO - [ERR] frame= 7864 fps= 89 q=35.6 size=   44288kB time=00:04:22.48 bitrate=1382.2kbits/s speed=2.97x
+2026-06-14 11:53:12,754 - INFO - [ERR] frame= 7864 fps= 89 q=35.6 size=   44288kB time=00:04:22.48 bitrate=1382.2kbits/s speed=2.97x
+2026-06-14 11:53:13 - INFO - [ERR] frame= 7914 fps= 89 q=35.3 size=   44544kB time=00:04:24.14 bitrate=1381.4kbits/s speed=2.97x
+2026-06-14 11:53:13,258 - INFO - [ERR] frame= 7914 fps= 89 q=35.3 size=   44544kB time=00:04:24.14 bitrate=1381.4kbits/s speed=2.97x
+2026-06-14 11:53:13 - INFO - [ERR] frame= 7986 fps= 89 q=29.6 size=   44544kB time=00:04:26.56 bitrate=1368.9kbits/s speed=2.98x
+2026-06-14 11:53:13,761 - INFO - [ERR] frame= 7986 fps= 89 q=29.6 size=   44544kB time=00:04:26.56 bitrate=1368.9kbits/s speed=2.98x
+2026-06-14 11:53:14 - INFO - [ERR] frame= 8043 fps= 89 q=35.8 size=   44800kB time=00:04:28.45 bitrate=1367.1kbits/s speed=2.99x
+2026-06-14 11:53:14,267 - INFO - [ERR] frame= 8043 fps= 89 q=35.8 size=   44800kB time=00:04:28.45 bitrate=1367.1kbits/s speed=2.99x
+2026-06-14 11:53:14 - INFO - [ERR] frame= 8078 fps= 89 q=34.3 size=   45056kB time=00:04:29.63 bitrate=1368.9kbits/s speed=2.98x
+2026-06-14 11:53:14,777 - INFO - [ERR] frame= 8078 fps= 89 q=34.3 size=   45056kB time=00:04:29.63 bitrate=1368.9kbits/s speed=2.98x
+2026-06-14 11:53:15 - INFO - [ERR] frame= 8115 fps= 89 q=34.9 size=   45312kB time=00:04:30.84 bitrate=1370.5kbits/s speed=2.98x
+2026-06-14 11:53:15,361 - INFO - [ERR] frame= 8115 fps= 89 q=34.9 size=   45312kB time=00:04:30.84 bitrate=1370.5kbits/s speed=2.98x
+2026-06-14 11:53:15 - INFO - [ERR] frame= 8152 fps= 89 q=34.0 size=   45568kB time=00:04:32.08 bitrate=1372.0kbits/s speed=2.97x
+2026-06-14 11:53:15,861 - INFO - [ERR] frame= 8152 fps= 89 q=34.0 size=   45568kB time=00:04:32.08 bitrate=1372.0kbits/s speed=2.97x
+2026-06-14 11:53:16 - INFO - [ERR] frame= 8185 fps= 89 q=32.8 size=   45824kB time=00:04:33.19 bitrate=1374.1kbits/s speed=2.97x
+2026-06-14 11:53:16,362 - INFO - [ERR] frame= 8185 fps= 89 q=32.8 size=   45824kB time=00:04:33.19 bitrate=1374.1kbits/s speed=2.97x
+2026-06-14 11:53:16 - INFO - [ERR] frame= 8249 fps= 89 q=35.8 size=   45824kB time=00:04:35.30 bitrate=1363.5kbits/s speed=2.98x
+2026-06-14 11:53:16,868 - INFO - [ERR] frame= 8249 fps= 89 q=35.8 size=   45824kB time=00:04:35.30 bitrate=1363.5kbits/s speed=2.98x
+2026-06-14 11:53:17 - INFO - [ERR] frame= 8344 fps= 90 q=35.8 size=   46080kB time=00:04:38.48 bitrate=1355.5kbits/s speed=2.99x
+2026-06-14 11:53:17,386 - INFO - [ERR] frame= 8344 fps= 90 q=35.8 size=   46080kB time=00:04:38.48 bitrate=1355.5kbits/s speed=2.99x
+2026-06-14 11:53:17 - INFO - [ERR] frame= 8402 fps= 90 q=28.9 size=   46080kB time=00:04:40.42 bitrate=1346.1kbits/s speed=   3x
+2026-06-14 11:53:17,906 - INFO - [ERR] frame= 8402 fps= 90 q=28.9 size=   46080kB time=00:04:40.42 bitrate=1346.1kbits/s speed=   3x
+2026-06-14 11:53:18 - INFO - [ERR] frame= 8448 fps= 90 q=28.9 size=   46336kB time=00:04:41.96 bitrate=1346.2kbits/s speed=   3x
+2026-06-14 11:53:18,429 - INFO - [ERR] frame= 8448 fps= 90 q=28.9 size=   46336kB time=00:04:41.96 bitrate=1346.2kbits/s speed=   3x
+2026-06-14 11:53:18 - INFO - [ERR] frame= 8492 fps= 90 q=28.6 size=   46848kB time=00:04:43.41 bitrate=1354.1kbits/s speed=   3x
+2026-06-14 11:53:18,937 - INFO - [ERR] frame= 8492 fps= 90 q=28.6 size=   46848kB time=00:04:43.41 bitrate=1354.1kbits/s speed=   3x
+2026-06-14 11:53:19 - INFO - [ERR] frame= 8556 fps= 90 q=28.6 size=   47104kB time=00:04:45.54 bitrate=1351.4kbits/s speed=   3x
+2026-06-14 11:53:19,448 - INFO - [ERR] frame= 8556 fps= 90 q=28.6 size=   47104kB time=00:04:45.54 bitrate=1351.4kbits/s speed=   3x
+2026-06-14 11:53:19 - INFO - [ERR] frame= 8613 fps= 90 q=35.9 Lsize=   47634kB time=00:04:47.10 bitrate=1359.1kbits/s speed=   3x
+2026-06-14 11:53:19,448 - INFO - [ERR] frame= 8613 fps= 90 q=35.9 Lsize=   47634kB time=00:04:47.10 bitrate=1359.1kbits/s speed=   3x
+2026-06-14 11:53:19 - INFO - [ERR] video:42775kB audio:4540kB subtitle:0kB other streams:0kB global headers:2kB muxing overhead: 0.675462%
+2026-06-14 11:53:19,451 - INFO - [ERR] video:42775kB audio:4540kB subtitle:0kB other streams:0kB global headers:2kB muxing overhead: 0.675462%
+2026-06-14 11:53:19 - INFO - [ERR] x265 [info]: frame I:     54, Avg QP:26.80  kb/s: 6297.04
+2026-06-14 11:53:19,455 - INFO - [ERR] x265 [info]: frame I:     54, Avg QP:26.80  kb/s: 6297.04
+2026-06-14 11:53:19 - INFO - [ERR] x265 [info]: frame P:   2368, Avg QP:29.78  kb/s: 2497.54
+2026-06-14 11:53:19,455 - INFO - [ERR] x265 [info]: frame P:   2368, Avg QP:29.78  kb/s: 2497.54
+2026-06-14 11:53:19 - INFO - [ERR] x265 [info]: frame B:   6191, Avg QP:34.58  kb/s: 686.45
+2026-06-14 11:53:19,458 - INFO - [ERR] x265 [info]: frame B:   6191, Avg QP:34.58  kb/s: 686.45
+2026-06-14 11:53:19 - INFO - [ERR] x265 [info]: Weighted P-Frames: Y:1.1% UV:0.8%
+2026-06-14 11:53:19,460 - INFO - [ERR] x265 [info]: Weighted P-Frames: Y:1.1% UV:0.8%
+2026-06-14 11:53:19 - INFO - [ERR] x265 [info]: consecutive B-frames: 7.5% 8.1% 13.4% 63.5% 7.6%
+2026-06-14 11:53:19,462 - INFO - [ERR] x265 [info]: consecutive B-frames: 7.5% 8.1% 13.4% 63.5% 7.6%
+2026-06-14 11:53:19 - INFO - [ERR] encoded 8613 frames in 95.59s (90.10 fps), 1219.55 kb/s, Avg QP:33.21
+2026-06-14 11:53:19,465 - INFO - [ERR] encoded 8613 frames in 95.59s (90.10 fps), 1219.55 kb/s, Avg QP:33.21
+2026-06-14 11:53:19 - INFO - [ERR] [aac @ 00000210ed629940] Qavg: 1548.200
+2026-06-14 11:53:19,474 - INFO - [ERR] [aac @ 00000210ed629940] Qavg: 1548.200
+2026-06-14 11:53:19 - INFO - Compression completed for D:/Games/Hgame/Hvideo/[Azur Lane] Sex Machine.mp4
+2026-06-14 11:53:19,482 - INFO - Compression completed for D:/Games/Hgame/Hvideo/[Azur Lane] Sex Machine.mp4
+2026-06-14 11:53:19 - INFO - Output size: 46.52 MB
+2026-06-14 11:53:19,482 - INFO - Output size: 46.52 MB
+2026-06-14 11:53:19 - INFO - Compression ratio: 71.81%
+2026-06-14 11:53:19,484 - INFO - Compression ratio: 71.81%
