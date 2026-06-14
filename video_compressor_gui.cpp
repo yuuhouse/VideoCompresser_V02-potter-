@@ -8,8 +8,37 @@
 #include <iomanip>
 #include <sstream>
 
+std::wstring quotePath(const std::wstring& path) {
+    return L"\"" + path + L"\"";
+}
+
+std::wstring getExecutableDir() {
+    wchar_t buffer[MAX_PATH] = { 0 };
+    GetModuleFileNameW(NULL, buffer, MAX_PATH);
+    std::filesystem::path exePath(buffer);
+    return exePath.parent_path().wstring();
+}
+
+std::wstring findFfmpegPath() {
+    std::filesystem::path exeDir(getExecutableDir());
+    std::filesystem::path candidates[] = {
+        exeDir / L"ffmpeg.exe",
+        exeDir / L"bin" / L"ffmpeg.exe"
+    };
+
+    for (const auto& candidate : candidates) {
+        if (std::filesystem::exists(candidate)) {
+            return candidate.wstring();
+        }
+    }
+
+    return L"ffmpeg";
+}
+
+const std::wstring FFMPEG_CMD = findFfmpegPath();
+
 void compressVideo(const std::wstring& inputFilePath, const std::wstring& outputFilePath, int crf) {
-    std::wstring command = L"ffmpeg -i \"" + inputFilePath + L"\" -vcodec libx264 -crf " + std::to_wstring(crf) + L" \"" + outputFilePath + L"\"";
+    std::wstring command = quotePath(FFMPEG_CMD) + L" -i " + quotePath(inputFilePath) + L" -c:v libx265 -crf " + std::to_wstring(crf) + L" -preset medium " + quotePath(outputFilePath);
     std::wcout << L"Running command: " << command << std::endl;
     int result = _wsystem(command.c_str());
 
@@ -45,18 +74,18 @@ std::wstring generateOutputPath(const std::wstring& inputPath) {
     auto now = std::chrono::system_clock::now();
     auto in_time_t = std::chrono::system_clock::to_time_t(now);
     std::wstringstream ss;
-    std::wstring extension = L".mp4";
     
     // 從輸入路徑中提取目錄和文件名
     std::filesystem::path path(inputPath);
     auto parent_path = path.parent_path();
     auto stem = path.stem();
+    auto extension = path.extension();
     
     // 格式化時間戳記
     ss << std::put_time(std::localtime(&in_time_t), L"_%Y%m%d_%H%M%S");
     
     // 組合新的輸出路徑
-    return (parent_path / (stem.wstring() + ss.str() + extension)).wstring();
+    return (parent_path / (stem.wstring() + ss.str() + extension.wstring())).wstring();
 }
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {

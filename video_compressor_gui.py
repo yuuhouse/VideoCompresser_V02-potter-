@@ -23,6 +23,21 @@ file_handler.setFormatter(formatter)
 root_logger = logging.getLogger()
 root_logger.addHandler(file_handler)
 
+# Determine ffmpeg executable path (prefer bundled ffmpeg.exe next to this script)
+script_dir = Path(__file__).parent
+ffmpeg_candidates = [script_dir / "ffmpeg.exe", script_dir / "bin" / "ffmpeg.exe"]
+ffmpeg_path = None
+for p in ffmpeg_candidates:
+    if p.exists():
+        ffmpeg_path = p
+        break
+if ffmpeg_path:
+    FFMPEG_CMD = str(ffmpeg_path)
+    logging.info(f"Using bundled ffmpeg: {FFMPEG_CMD}")
+else:
+    FFMPEG_CMD = "ffmpeg"
+    logging.warning("Bundled ffmpeg.exe not found. Falling back to system 'ffmpeg' command.")
+
 class VideoCompressorGUI:
     def __init__(self):
         self.window = tk.Tk()
@@ -90,7 +105,7 @@ class VideoCompressorGUI:
 
             # Check video file validity
             probe_command = [
-                'ffmpeg', '-v', 'error', '-i', input_path, '-f', 'null', '-'
+                FFMPEG_CMD, '-v', 'error', '-i', input_path, '-f', 'null', '-'
             ]
             probe_result = subprocess.run(
                 probe_command,
@@ -103,7 +118,7 @@ class VideoCompressorGUI:
                 logging.warning(f"Video file issues detected: {probe_result.stderr}")
 
             command = [
-                'ffmpeg', '-i', input_path,
+                FFMPEG_CMD, '-i', input_path,
                 '-c:v', 'libx265',
                 '-crf', self.crf_value.get(),
                 '-preset', 'medium',

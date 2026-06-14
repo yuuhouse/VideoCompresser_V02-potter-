@@ -1,0 +1,251 @@
+2024-12-21 02:52:39 - INFO - Input file: D:/Coding/VideoCopresserV_02-potter-/image.mp4
+2024-12-21 02:52:39,794 - INFO - Input file: D:/Coding/VideoCopresserV_02-potter-/image.mp4
+2024-12-21 02:52:39 - INFO - Input size: 0.28 MB
+2024-12-21 02:52:39,794 - INFO - Input size: 0.28 MB
+2024-12-21 02:52:39 - INFO - Executing command: ffmpeg -i D:/Coding/VideoCopresserV_02-potter-/image.mp4 -c:v libx265 -crf 40 -preset medium D:\Coding\VideoCopresserV_02-potter-\image_20241221_025239_compressed.mp4
+2024-12-21 02:52:39,976 - INFO - Executing command: ffmpeg -i D:/Coding/VideoCopresserV_02-potter-/image.mp4 -c:v libx265 -crf 40 -preset medium D:\Coding\VideoCopresserV_02-potter-\image_20241221_025239_compressed.mp4
+2024-12-21 02:52:40 - INFO - Compression completed for D:/Coding/VideoCopresserV_02-potter-/image.mp4
+2024-12-21 02:52:40,282 - INFO - Compression completed for D:/Coding/VideoCopresserV_02-potter-/image.mp4
+2024-12-21 02:52:40 - INFO - Input size: 0.28 MB
+2024-12-21 02:52:40,282 - INFO - Input size: 0.28 MB
+2024-12-21 02:52:40 - INFO - Output size: 0.03 MB
+2024-12-21 02:52:40,282 - INFO - Output size: 0.03 MB
+2024-12-21 02:52:40 - INFO - Compression ratio: 88.68%
+2024-12-21 02:52:40,282 - INFO - Compression ratio: 88.68%
+2024-12-21 02:52:40 - WARNING - FFmpeg warnings during compression: ffmpeg version N-105570-gfad5c6d743-20220213 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.0 (crosstool-NG 1.24.0.498_5075e1f)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-avisynth --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libass --enable-libbluray --enable-libmp3lame --enable-libopus --enable-librist --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libmfx --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --disable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20220213
+  libavutil      57. 21.100 / 57. 21.100
+  libavcodec     59. 20.100 / 59. 20.100
+  libavformat    59. 17.101 / 59. 17.101
+  libavdevice    59.  5.100 / 59.  5.100
+  libavfilter     8. 27.100 /  8. 27.100
+  libswscale      6.  5.100 /  6.  5.100
+  libswresample   4.  4.100 /  4.  4.100
+  libpostproc    56.  4.100 / 56.  4.100
+Input #0, png_pipe, from 'D:/Coding/VideoCopresserV_02-potter-/image.mp4':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, pal8(pc), 1280x1040, 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> hevc (libx265))
+Press [q] to stop, [?] for help
+x265 [info]: HEVC encoder version 3.5+20-17839cc0d
+x265 [info]: build info [Windows][GCC 11.2.0][64 bit] 8bit+10bit+12bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [warning]: halving the quality when psy-rd is enabled for 444 input. Setting cbQpOffset = 6 and crQpOffset = 6
+x265 [info]: Main 4:4:4 profile, Level-4 (Main tier)
+x265 [info]: Thread pool created using 12 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 3 / wpp(17 rows)
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 3
+x265 [info]: Keyframe min / max / scenecut / bias  : 25 / 250 / 40 / 5.00 
+x265 [info]: Cb/Cr QP Offset                     : 6 / 6
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / off / on
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-40.0 / 0.60
+x265 [info]: tools: rd=3 psy-rd=2.00 early-skip rskip mode=1 signhide tmvp
+x265 [info]: tools: b-intra strong-intra-smoothing lslices=6 deblock sao
+Output #0, mp4, to 'D:\Coding\VideoCopresserV_02-potter-\image_20241221_025239_compressed.mp4':
+  Metadata:
+    encoder         : Lavf59.17.101
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), gbrp(pc, gbr/unknown/unknown, progressive), 1280x1040, q=2-31, 25 fps, 12800 tbn
+    Metadata:
+      encoder         : Lavc59.20.100 libx265
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    1 fps=0.0 q=46.8 Lsize=      32kB time=00:00:00.00 bitrate=3405538.5kbits/s speed=0.000629x    
+video:29kB audio:0kB subtitle:0kB other streams:0kB global headers:2kB muxing overhead: 10.776006%
+x265 [info]: frame I:      1, Avg QP:46.82  kb/s: 5994.00 
+x265 [info]: consecutive B-frames: 100.0% 0.0% 0.0% 0.0% 0.0% 
+
+encoded 1 frames in 0.11s (9.09 fps), 5994.00 kb/s, Avg QP:46.82
+
+2024-12-21 02:52:40,282 - WARNING - FFmpeg warnings during compression: ffmpeg version N-105570-gfad5c6d743-20220213 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.0 (crosstool-NG 1.24.0.498_5075e1f)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-avisynth --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libass --enable-libbluray --enable-libmp3lame --enable-libopus --enable-librist --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libmfx --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --disable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20220213
+  libavutil      57. 21.100 / 57. 21.100
+  libavcodec     59. 20.100 / 59. 20.100
+  libavformat    59. 17.101 / 59. 17.101
+  libavdevice    59.  5.100 / 59.  5.100
+  libavfilter     8. 27.100 /  8. 27.100
+  libswscale      6.  5.100 /  6.  5.100
+  libswresample   4.  4.100 /  4.  4.100
+  libpostproc    56.  4.100 / 56.  4.100
+Input #0, png_pipe, from 'D:/Coding/VideoCopresserV_02-potter-/image.mp4':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, pal8(pc), 1280x1040, 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> hevc (libx265))
+Press [q] to stop, [?] for help
+x265 [info]: HEVC encoder version 3.5+20-17839cc0d
+x265 [info]: build info [Windows][GCC 11.2.0][64 bit] 8bit+10bit+12bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [warning]: halving the quality when psy-rd is enabled for 444 input. Setting cbQpOffset = 6 and crQpOffset = 6
+x265 [info]: Main 4:4:4 profile, Level-4 (Main tier)
+x265 [info]: Thread pool created using 12 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 3 / wpp(17 rows)
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 3
+x265 [info]: Keyframe min / max / scenecut / bias  : 25 / 250 / 40 / 5.00 
+x265 [info]: Cb/Cr QP Offset                     : 6 / 6
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / off / on
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-40.0 / 0.60
+x265 [info]: tools: rd=3 psy-rd=2.00 early-skip rskip mode=1 signhide tmvp
+x265 [info]: tools: b-intra strong-intra-smoothing lslices=6 deblock sao
+Output #0, mp4, to 'D:\Coding\VideoCopresserV_02-potter-\image_20241221_025239_compressed.mp4':
+  Metadata:
+    encoder         : Lavf59.17.101
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), gbrp(pc, gbr/unknown/unknown, progressive), 1280x1040, q=2-31, 25 fps, 12800 tbn
+    Metadata:
+      encoder         : Lavc59.20.100 libx265
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    1 fps=0.0 q=46.8 Lsize=      32kB time=00:00:00.00 bitrate=3405538.5kbits/s speed=0.000629x    
+video:29kB audio:0kB subtitle:0kB other streams:0kB global headers:2kB muxing overhead: 10.776006%
+x265 [info]: frame I:      1, Avg QP:46.82  kb/s: 5994.00 
+x265 [info]: consecutive B-frames: 100.0% 0.0% 0.0% 0.0% 0.0% 
+
+encoded 1 frames in 0.11s (9.09 fps), 5994.00 kb/s, Avg QP:46.82
+
+2024-12-30 13:10:06 - INFO - Input file: D:/Coding/VideoCompresser_V02-potter-/image.mp4
+2024-12-30 13:10:06,456 - INFO - Input file: D:/Coding/VideoCompresser_V02-potter-/image.mp4
+2024-12-30 13:10:06 - INFO - Input size: 0.28 MB
+2024-12-30 13:10:06,457 - INFO - Input size: 0.28 MB
+2024-12-30 13:10:06 - INFO - Executing command: ffmpeg -i D:/Coding/VideoCompresser_V02-potter-/image.mp4 -c:v libx265 -crf 51 -preset medium D:\Coding\VideoCompresser_V02-potter-\image_20241230_131006_compressed.mp4
+2024-12-30 13:10:06,968 - INFO - Executing command: ffmpeg -i D:/Coding/VideoCompresser_V02-potter-/image.mp4 -c:v libx265 -crf 51 -preset medium D:\Coding\VideoCompresser_V02-potter-\image_20241230_131006_compressed.mp4
+2024-12-30 13:10:07 - INFO - Compression completed for D:/Coding/VideoCompresser_V02-potter-/image.mp4
+2024-12-30 13:10:07,260 - INFO - Compression completed for D:/Coding/VideoCompresser_V02-potter-/image.mp4
+2024-12-30 13:10:07 - INFO - Input size: 0.28 MB
+2024-12-30 13:10:07,260 - INFO - Input size: 0.28 MB
+2024-12-30 13:10:07 - INFO - Output size: 0.02 MB
+2024-12-30 13:10:07,260 - INFO - Output size: 0.02 MB
+2024-12-30 13:10:07 - INFO - Compression ratio: 91.90%
+2024-12-30 13:10:07,260 - INFO - Compression ratio: 91.90%
+2024-12-30 13:10:07 - WARNING - FFmpeg warnings during compression: ffmpeg version N-105570-gfad5c6d743-20220213 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.0 (crosstool-NG 1.24.0.498_5075e1f)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-avisynth --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libass --enable-libbluray --enable-libmp3lame --enable-libopus --enable-librist --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libmfx --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --disable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20220213
+  libavutil      57. 21.100 / 57. 21.100
+  libavcodec     59. 20.100 / 59. 20.100
+  libavformat    59. 17.101 / 59. 17.101
+  libavdevice    59.  5.100 / 59.  5.100
+  libavfilter     8. 27.100 /  8. 27.100
+  libswscale      6.  5.100 /  6.  5.100
+  libswresample   4.  4.100 /  4.  4.100
+  libpostproc    56.  4.100 / 56.  4.100
+Input #0, png_pipe, from 'D:/Coding/VideoCompresser_V02-potter-/image.mp4':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, pal8(pc), 1280x1040, 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> hevc (libx265))
+Press [q] to stop, [?] for help
+x265 [info]: HEVC encoder version 3.5+20-17839cc0d
+x265 [info]: build info [Windows][GCC 11.2.0][64 bit] 8bit+10bit+12bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [warning]: halving the quality when psy-rd is enabled for 444 input. Setting cbQpOffset = 6 and crQpOffset = 6
+x265 [info]: Main 4:4:4 profile, Level-4 (Main tier)
+x265 [info]: Thread pool created using 12 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 3 / wpp(17 rows)
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 3
+x265 [info]: Keyframe min / max / scenecut / bias  : 25 / 250 / 40 / 5.00 
+x265 [info]: Cb/Cr QP Offset                     : 6 / 6
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / off / on
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-51.0 / 0.60
+x265 [info]: tools: rd=3 psy-rd=2.00 early-skip rskip mode=1 signhide tmvp
+x265 [info]: tools: b-intra strong-intra-smoothing lslices=6 deblock sao
+Output #0, mp4, to 'D:\Coding\VideoCompresser_V02-potter-\image_20241230_131006_compressed.mp4':
+  Metadata:
+    encoder         : Lavf59.17.101
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), gbrp(pc, gbr/unknown/unknown, progressive), 1280x1040, q=2-31, 25 fps, 12800 tbn
+    Metadata:
+      encoder         : Lavc59.20.100 libx265
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    1 fps=0.0 q=51.0 Lsize=      23kB time=00:00:00.00 bitrate=2436205.1kbits/s speed=0.000696x    
+video:20kB audio:0kB subtitle:0kB other streams:0kB global headers:2kB muxing overhead: 15.738440%
+x265 [info]: frame I:      1, Avg QP:51.00  kb/s: 4103.80 
+x265 [info]: consecutive B-frames: 100.0% 0.0% 0.0% 0.0% 0.0% 
+
+encoded 1 frames in 0.10s (10.20 fps), 4103.80 kb/s, Avg QP:51.00
+
+2024-12-30 13:10:07,261 - WARNING - FFmpeg warnings during compression: ffmpeg version N-105570-gfad5c6d743-20220213 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.0 (crosstool-NG 1.24.0.498_5075e1f)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-avisynth --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libass --enable-libbluray --enable-libmp3lame --enable-libopus --enable-librist --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libmfx --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --disable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20220213
+  libavutil      57. 21.100 / 57. 21.100
+  libavcodec     59. 20.100 / 59. 20.100
+  libavformat    59. 17.101 / 59. 17.101
+  libavdevice    59.  5.100 / 59.  5.100
+  libavfilter     8. 27.100 /  8. 27.100
+  libswscale      6.  5.100 /  6.  5.100
+  libswresample   4.  4.100 /  4.  4.100
+  libpostproc    56.  4.100 / 56.  4.100
+Input #0, png_pipe, from 'D:/Coding/VideoCompresser_V02-potter-/image.mp4':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, pal8(pc), 1280x1040, 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> hevc (libx265))
+Press [q] to stop, [?] for help
+x265 [info]: HEVC encoder version 3.5+20-17839cc0d
+x265 [info]: build info [Windows][GCC 11.2.0][64 bit] 8bit+10bit+12bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [warning]: halving the quality when psy-rd is enabled for 444 input. Setting cbQpOffset = 6 and crQpOffset = 6
+x265 [info]: Main 4:4:4 profile, Level-4 (Main tier)
+x265 [info]: Thread pool created using 12 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 3 / wpp(17 rows)
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 3
+x265 [info]: Keyframe min / max / scenecut / bias  : 25 / 250 / 40 / 5.00 
+x265 [info]: Cb/Cr QP Offset                     : 6 / 6
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / off / on
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-51.0 / 0.60
+x265 [info]: tools: rd=3 psy-rd=2.00 early-skip rskip mode=1 signhide tmvp
+x265 [info]: tools: b-intra strong-intra-smoothing lslices=6 deblock sao
+Output #0, mp4, to 'D:\Coding\VideoCompresser_V02-potter-\image_20241230_131006_compressed.mp4':
+  Metadata:
+    encoder         : Lavf59.17.101
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), gbrp(pc, gbr/unknown/unknown, progressive), 1280x1040, q=2-31, 25 fps, 12800 tbn
+    Metadata:
+      encoder         : Lavc59.20.100 libx265
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    1 fps=0.0 q=51.0 Lsize=      23kB time=00:00:00.00 bitrate=2436205.1kbits/s speed=0.000696x    
+video:20kB audio:0kB subtitle:0kB other streams:0kB global headers:2kB muxing overhead: 15.738440%
+x265 [info]: frame I:      1, Avg QP:51.00  kb/s: 4103.80 
+x265 [info]: consecutive B-frames: 100.0% 0.0% 0.0% 0.0% 0.0% 
+
+encoded 1 frames in 0.10s (10.20 fps), 4103.80 kb/s, Avg QP:51.00
+
+2025-04-09 12:17:04 - INFO - Input file: C:/Users/User/Downloads/玐\u8bed并簈\u8bf4琌_20250409_121538.mp4
+2025-04-09 12:17:04 - INFO - Input size: 33.13 MB
+2025-04-09 12:17:04,453 - INFO - Input size: 33.13 MB
+2025-04-09 12:17:07 - INFO - Executing command: ffmpeg -i C:/Users/User/Downloads/玐\u8bed并簈\u8bf4琌_20250409_121538.mp4 -c:v libx265 -crf 40 -preset medium C:\Users\User\Downloads\玐\u8bed并簈\u8bf4琌_20250409_121538_20250409_121704_compressed.mp4
+2025-04-09 12:18:17 - INFO - Compression completed for C:/Users/User/Downloads/玐\u8bed并簈\u8bf4琌_20250409_121538.mp4
+2025-04-09 12:18:17 - INFO - Input size: 33.13 MB
+2025-04-09 12:18:17,665 - INFO - Input size: 33.13 MB
+2025-04-09 12:18:17 - INFO - Output size: 9.55 MB
+2025-04-09 12:18:17,666 - INFO - Output size: 9.55 MB
+2025-04-09 12:18:17 - INFO - Compression ratio: 71.16%
+2025-04-09 12:18:17,666 - INFO - Compression ratio: 71.16%

@@ -25,7 +25,8 @@
 ## 系統需求
 
 - Python 3.6 或更新版本
-- FFmpeg（需要預先安裝）
+- FFmpeg（需要預先安裝；若專案目錄含 `ffmpeg.exe`，Python 和 C++ 版程式會優先使用它，否則改用系統 `ffmpeg`）
+- C++ 版本的壓縮參數已與 Python 版本對齊，使用 `libx265` 並加上 `-preset medium`。
 - tkinter（Python GUI 套件）
 - G++編譯器（如果要編譯 C++ 版本）
 
