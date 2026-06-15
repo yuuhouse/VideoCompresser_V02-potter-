@@ -37,7 +37,15 @@ std::wstring findFfmpegPath() {
 
 const std::wstring FFMPEG_CMD = findFfmpegPath();
 
-void compressVideo(const std::wstring& inputFilePath, const std::wstring& outputFilePath, int crf) {
+bool compressVideo(const std::wstring& inputFilePath, const std::wstring& outputFilePath, int crf) {
+    if (FFMPEG_CMD == L"ffmpeg") {
+        int check = _wsystem(L"where ffmpeg >nul 2>&1");
+        if (check != 0) {
+            MessageBoxW(NULL, L"FFmpeg was not found in the system PATH.\nPlease install ffmpeg or add C:\\ffmpeg\\bin to PATH, then restart the app.", L"FFmpeg Not Found", MB_OK | MB_ICONERROR);
+            return false;
+        }
+    }
+
     std::wstring command = quotePath(FFMPEG_CMD) + L" -i " + quotePath(inputFilePath) + L" -c:v libx265 -crf " + std::to_wstring(crf) + L" -preset medium " + quotePath(outputFilePath);
     std::wcout << L"Running command: " << command << std::endl;
     int result = _wsystem(command.c_str());
@@ -45,11 +53,20 @@ void compressVideo(const std::wstring& inputFilePath, const std::wstring& output
     if (result != 0) {
         std::wcerr << L"Error: Failed to compress video. Command: " << command << std::endl;
         std::wcerr << L"FFmpeg exited with code " << result << std::endl;
-        exit(EXIT_FAILURE);
+        std::wstring message = L"Video compression failed.\nFFmpeg command:\n" + command + L"\n\nFFmpeg exited with code " + std::to_wstring(result) + L".";
+        MessageBoxW(NULL, message.c_str(), L"Compression Error", MB_OK | MB_ICONERROR);
+        return false;
+    }
+
+    if (!std::filesystem::exists(outputFilePath)) {
+        std::wstring message = L"Compression command completed but output file was not created:\n" + outputFilePath;
+        MessageBoxW(NULL, message.c_str(), L"Compression Error", MB_OK | MB_ICONERROR);
+        return false;
     }
 
     auto file_size = std::filesystem::file_size(outputFilePath);
     std::wcout << L"Compressed file size: " << file_size / (1024 * 1024) << L" MB" << std::endl;
+    return true;
 }
 
 std::wstring openFileDialog(HWND hwnd) {
@@ -113,8 +130,9 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
             int crf = _wtoi(crfText);
             if (!inputFilePath.empty() && crf >= 0 && crf <= 51) {
                 std::wstring outputFilePath = generateOutputPath(inputFilePath);
-                compressVideo(inputFilePath, outputFilePath, crf);
-                MessageBoxW(hwnd, L"Video compression completed successfully.", L"Success", MB_OK);
+                if (compressVideo(inputFilePath, outputFilePath, crf)) {
+                    MessageBoxW(hwnd, L"Video compression completed successfully.", L"Success", MB_OK);
+                }
             }
             else {
                 MessageBoxW(hwnd, L"Please select valid input file and CRF value.", L"Error", MB_OK | MB_ICONERROR);
